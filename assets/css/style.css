@@ -1,0 +1,787 @@
+
+
+body {
+    margin: 0 30px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+/* esto son los table data del logo y el menu */
+
+
+#menu h1 {
+    font-size: 200%;    
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu ul {
+    /* text-align: right; */
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 300;
+    letter-spacing: 3px;    
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 5px;
+    /* margin: 5px; */
+    /* text-align: center; */
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* esto es la imagen heroe */
+#hero-image-container { 
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;   
+}
+
+#hero-image {
+    width: 100%;
+    height: 600px;       
+    position: relative;
+    background: url(../images/hero-image.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+div #overlay {
+    width: 350px;
+    height: 200px;
+    position: absolute;       
+    top: 250px;
+    left: 20px;
+    padding: 10px 0 0 15px;
+    background-color: rgba(12, 11, 11, 0.7);
+    border-radius: 15px;  
+}
+
+#overlay h2{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.line {
+    border: 1px solid black;
+    margin: 30px 5px;
+}
+
+/* esto es el titulo h2 de games we play */
+
+#games {
+    width: 100%;
+    height: 75px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 15px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 37.5px;
+}
+
+#games h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* esto es las imagenes y el texto de games we play que tienen clases que se usan para el welcoming tambien */
+
+.image-text-container {
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.image-text-container img {
+    max-width: 50%;
+    min-height: 50%;
+    border-radius: 15px;
+}
+
+.image-text-container p {
+    flex: 1;
+    text-align: justify;
+    font-size: 200%;
+    line-height: 1.5em;
+    max-width: 50%;
+    min-height: 50%;
+    padding: 0 15px 0 15px;
+}
+
+/* esto es para el footer */
+
+footer {    
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;   
+}
+
+footer h3 {
+    width: 100%;    
+    text-align: center;
+    background-color: blue;
+    margin: 0; 
+    height: 75px;
+    line-height: 75px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+
+footer ul {
+    width: 100%;    
+    text-align: center;
+    background-color: red;
+    padding: 0;
+    margin: 0; 
+    height: 75px;
+    line-height: 75px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0 0 20px 0;
+    list-style-type: none;   
+}
+
+footer ul li {
+    display: inline;
+    margin: 80px;
+    font-size: 200%;
+}
+
+/* esto es para el titulo de about us page */
+
+#about {
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    font-size: 200%;
+    margin: 0 auto;
+    display: inline;
+}
+
+#about h2 {
+    font-size: 120%;
+    background-color: bisque;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 15px;
+    margin: 25px 0;
+}
+
+#about-intro p {
+    text-align: justify;
+    font-size: 100%;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 15px;
+    margin: 25px 0
+}
+
+/* esto es para el video de about us */
+
+#video h3 {
+    font-size: 170%;
+    margin: 25px 9.3vw;
+    text-align: center;
+    background-color: bisque;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 15px;
+}
+
+.video-wrapper {
+    width:80%;
+   height:100%;
+   margin:0 auto;
+   background:#CCC    
+    /* position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    /*height: 0; */
+}
+
+.h_iframe {
+    position:relative;
+}
+
+.h_iframe .ratio {
+    display:block;
+   width:100%;
+   height:auto;
+}
+
+.h_iframe iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+ }
+
+/* .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 10vw;
+    width: 80%;
+    height: 80%;
+  } */
+
+/* esto es para la pagina de timetable */
+
+#games-timetable {
+    height: 100%;
+    background: url(../images/timetables.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#time-heading h2 {
+    text-align: center;
+}
+
+.tables-1-2 {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    align-items: normal;
+}
+
+.tables-3-4 {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    align-items: normal;
+}
+
+.timetable table, .timetable td {
+    text-align: center;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+#wow {    
+    background-color: rgba(245, 245, 245, .8);    
+    color: black;
+    font-size: 145%;
+    flex: 1;
+}
+
+#wow table {
+    width: 80%;
+    height: 80%;
+    margin: 45px auto;
+}
+
+#cs-go {
+    font-size: 145%;
+    background-color: blueviolet;    
+    flex: 1;
+}
+
+#cs-go table {
+    width: 80%;
+    height: 80%;
+    margin: 45px auto;
+}
+
+#lol {   
+    background-color: brown;
+    font-size: 145%;
+    flex: 1;
+}
+
+#lol table {
+    width: 80%;
+    height: 80%;
+    margin: 45px auto;
+}
+
+#albion {   
+    background-color: chartreuse;    
+    font-size: 145%;
+    flex: 1;
+}
+
+#albion table {
+    width: 80%;
+    height: 80%;
+    margin: 45px auto;
+}
+
+/* css for form page */
+
+#form-section {
+    clear: both;
+    background: url(../images/form-page-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+#data-days-form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.text-input {
+    width: 100%;
+    margin: 5px 0 20px;
+}
+
+#data {
+    flex: 1;
+    color: antiquewhite;
+}
+
+#data form {
+    width: 40%;
+    height: 80%;
+    margin-left: 10%;
+}
+
+#days {
+    /* flex: 1; */
+    color: antiquewhite;
+    margin-right: 9%;
+}
+
+#days form {
+    width: 100%;
+    height: 80%;
+    line-height: 25px;    
+}
+
+#game-time-form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+
+#game {
+    flex: 1.5;
+    margin-left: 8%;
+}
+
+#join {
+    flex: 1.2;
+}
+
+#time {
+    margin-right: 7.6%;
+}
+
+
+
+
+    /* esto es el media querie para las imagenes y texto del homepage hasta tamano laptop y monitores grandes */
+
+    @media screen and (min-width:1470px) {
+        .image-text-container p {
+            font-size: 260%;
+        }
+        #welcome-p {
+            font-size: 260%;
+        }
+
+        #games h2 {            
+            font-size: 220%;
+            line-height: 20px;
+        }
+        
+        #about h2 {
+            font-size: 100%;
+            height: 75px;
+            line-height: 75px;
+        }
+
+        #about-intro p {
+            text-align: justify;
+            font-size: 100%;
+            padding: 30px;
+            line-height: 65px;
+        }
+
+        #video h3 {
+            font-size: 200%;
+            margin: 25px 9.3vw;
+            height: auto;           
+            line-height: 75px;            
+        }
+
+        #wow, #cs-go, #lol, #albion {
+            font-size: 150%;
+        }
+    }
+    
+    
+    
+    @media screen and (max-width:1170px) {
+        .image-text-container p {
+            font-size: 130%;
+        }
+        #welcome-p {
+            font-size: 140%;
+        }
+        
+        #about h2 {
+            font-size: 90%;
+            height: 75px;
+            line-height: 75px;
+        }
+
+        #about-intro p {
+            text-align: justify;
+            font-size: 90%;
+            padding: 30px;
+            line-height: 45px;
+        }
+
+        #video h3 {
+            font-size: 150%;
+            margin: 25px 8.3vw;
+            height: auto;           
+            line-height: 75px;            
+        }
+
+        #wow, #cs-go, #lol, #albion {
+            font-size: 140%;
+        }
+    }
+
+    @media screen and (max-width:1024px) {
+        #menu h1{
+            flex: none;
+            font-size: 150%;
+        }
+
+        #menu ul {
+            flex: none;
+            font-size: 15px;
+            letter-spacing: 1.5px;
+            padding: 0;            
+        }
+
+        #menu li {
+            margin: 0;
+            padding: 3.5px;
+        }
+
+        #welcome-p {
+            font-size: 135%;
+        }
+
+        footer ul li {            
+            margin: 50px;
+            font-size: 160%;
+        }
+
+        #about h2 {
+            font-size: 85%;
+            height: 75px;
+            line-height: 75px;
+        }
+
+        #about-intro p {
+            text-align: justify;
+            font-size: 85%;
+            padding: 25px;
+            line-height: 38px;
+        }
+
+        #video h3 {
+            font-size: 130%;
+            margin: 25px 8.3vw;
+            height: auto;           
+            line-height: 75px;            
+        }
+
+        #wow, #cs-go, #lol, #albion {
+            font-size: 120%;
+        }
+        
+    }
+
+    @media screen and (max-width:907px) {
+        #welcome-p {
+            font-size: 125%;
+        }
+    }
+
+    
+
+/* estos son los media queries para tamano tablet y movil */
+
+
+    @media screen and (max-width:768px) {
+
+        #hero-image-container {
+            height: 300px;
+        }
+
+        div #overlay {
+            width: 200px;
+            height: 150px;
+            padding: 0;
+            top: 100px;
+        }
+
+        #overlay h2 {
+            font-size: 100%;
+            padding: 5px;
+            margin-top: 15px;
+
+        }
+
+        .image-text-container {
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            width: 100%;            
+        }
+
+        .image-text-container img {
+            max-width: 100%;
+        }
+
+        .image-text-container p {
+            max-width: 100%;
+            font-size: 140%;
+        }
+
+        footer ul li {            
+            margin: 30px;
+            font-size: 150%;
+        }
+        
+        /* este es el media querie para el menu de navegacion hasta tablet size */
+        #menu {
+            flex-direction: column;
+            justify-content: stretch;           
+        }
+
+        #menu ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #menu h1 {
+            margin: 10px 0 0 0;
+            text-align: center;
+            padding: 0;
+        }
+
+        #menu a {
+            font-size: 18px;
+            letter-spacing: 6px;
+        }
+
+        #menu li {
+            margin: 5px 45px;
+        }
+
+        #about h2 {
+            font-size: 80%;
+            height: 75px;
+            line-height: 75px;
+        }
+
+        #about-intro p {
+            text-align: center;
+            font-size: 70%;
+            padding: 25px;
+            line-height: 38px;
+        }
+
+        #video h3 {
+            font-size: 110%;
+            margin: 25px 7.299999999999997vw;
+            height: auto;           
+            line-height: 37.5px;
+            padding: 5px;
+        }
+
+        .tables-1-2, .tables-3-4 {
+            display: flex;
+            flex-direction: column; 
+            height: 900px;           
+        }        
+
+        #wow, #cs-go, #lol, #albion {
+            font-size: 110%;
+        }
+
+        #data-form {
+            width: 70%;
+            /* margin-left: 10%; */
+        }
+
+        #days form > p {
+            margin-bottom: 0;
+            padding: 5px;
+        }
+
+        #join {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+        
+    
+
+    /* @media screen and (max-width:635px) {
+        #video h3 {
+            font-size: 90%;
+            margin: 25px 8.3vw;
+            height: 75px;
+            
+            padding: 5px;
+    }
+} */
+
+    /* media queries para moviles */
+
+    @media screen and (max-width:480px) {
+
+        #hero-image {
+            width: 100%;
+            height: 600px;
+            position: relative;
+            background: url(../images/hero-image-2.jpg) no-repeat top center;
+            background-size: cover;
+        }
+
+        div #overlay {
+            width: 150px;
+            height: 130px;
+            padding: 0;
+            top: 120px;
+            left: 10px;            
+        }
+
+        #overlay h2 {
+            font-size: 80%;
+            padding: 5px;
+            margin-top: 13px;
+
+        }
+
+        footer ul li {            
+            margin: 15px;
+            font-size: 130%;
+        }
+
+        #menu li {
+            margin: 5px;
+        }
+
+        #about h2 {
+            font-size: 60%;
+            height: 37.5px;
+            line-height: 37.5px;
+        }
+
+        #about-intro p {
+            text-align: center;
+            font-size: 55%;
+            padding: 15px;
+            line-height: 30px;
+        }
+
+        #video h3 {
+            font-size: 80%;
+            margin: 25px 7.299999999999997vw;
+            height: 37.5px;
+            line-height: 18.75px;
+            padding: 10px;
+        }
+
+        #wow, #cs-go, #lol, #albion {
+            font-size: 100%;
+        }
+
+        #form-section {
+            background: url(../images/form-page-image-2.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+
+        #data-days-form {            
+            flex-direction: column;
+        }
+
+        #data {
+           width: 90%; 
+        }
+
+        #data form {
+            width: 100%;
+            height: 80%;
+            margin: 0;
+        }
+
+        #days {
+            width: 70%;
+            margin: 0 0 15px 5vw;
+        }
+
+        #days form {
+            width: 100%;
+            height: 80%;
+            line-height: 25px;
+            font-size: 20px;
+            background-color: rgba(220, 220, 220, .8);
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        #days form > p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+    }
+
+
+
+
+    @media screen and (max-width:447px) {
+        #menu h1 {
+            font-size: 150%;
+        }
+        .image-text-container p {            
+            font-size: 110%;
+        }
+    }

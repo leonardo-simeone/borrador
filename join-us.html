@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando Grid</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("form").submit(function(){
+                if ($('input:checkbox').filter(':checked').length < 1){
+                alert("Check at least one Game!");
+                return false;
+                }
+            });
+        });
+        </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="menu">
+                <h1>Online Gaming Club</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#games">Games</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="timetable.html">TimeTable</a></li>
+                    <li><a href="#">Join Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h2>Fill out the form and Join Us</h2>
+    <section id="form-section">
+        <div id="data-days-form">
+            <div id="data">
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input class="text-input" id="fname" type="text" name="first_name" placeholder="Your First Name"
+                            required>
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input class="text-input" id="lname" type="text" name="last_name" placeholder="Your Last Name"
+                            required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input class="text-input" id="email" type="email" name="email_address"
+                            placeholder="Your Email Address" required>
+                    </div>
+                </form>
+            </div>
+            <div id="days">
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <p>Day(s) to Play</p>
+                    <div>
+                        <input type="checkbox" name="monday" id="monday-checkbox">
+                        <label for="monday-checkbox">Monday</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tuesday" id="tuesday-checkbox">
+                        <label for="tuesday-checkbox">Tuesday</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="wednesday" id="wednesday-checkbox">
+                        <label for="wednesday-checkbox">Wednesday</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="thursday" id="thursday-checkbox">
+                        <label for="thursday-checkbox">Thursday</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="friday" id="friday-checkbox">
+                        <label for="friday-checkbox">Friday</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="saturday" id="saturday-checkbox">
+                        <label for="saturday-checkbox">Saturday</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="sunday" id="sunday-checkbox">
+                        <label for="sunday-checkbox">Sunday</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="game-time-form">
+            <div id="game">
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <p>Games you like</p>
+                    <div>                
+                        <input type="checkbox" name="play-wow" id="play-wow-checkbox">
+                        <label for="wow">World of Warcraft</label>
+                    </div>
+                    <div>                
+                        <input type="checkbox" name="play-csgo" id="play-csgo-checkbox">
+                        <label for="play-csgo-checkbox">CS GO</label>
+                    </div>
+                    <div>                
+                        <input type="checkbox" name="play-lol" id="play-lol-checkbox">
+                        <label for="play-lol-checkbox">League of Legends</label>
+                    </div>
+                    <div>                
+                        <input type="checkbox" name="play-albion" id="play-albion-checkbox">
+                        <label for="play-albion-checkbox">Albion Online</label>
+                    </div>
+                </form>
+            </div>
+            <div id="join">
+                <input type="submit" value="Join Us">
+            </div>
+            <div id="time">
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <p>Time(s) to Play</p>
+                    <div>                
+                        <input type="checkbox" name="quarter-one" id="quarter-one-checkbox">
+                        <label for="quarter-one-checkbox">00:00 - 06:00</label>
+                    </div>
+                    <div>                
+                        <input type="checkbox" name="quarter-two" id="quarter-two-checkbox">
+                        <label for="quarter-two-checkbox">06:00 - 12:00</label>
+                    </div>
+                    <div>                
+                        <input type="checkbox" name="quarter-three" id="quarter-three-checkbox">
+                        <label for="quarter-three-checkbox">12:00 - 18:00</label>
+                    </div>
+                    <div>                
+                        <input type="checkbox" name="quarter-four" id="quarter-four-checkbox">
+                        <label for="quarter-four-checkbox">18:00 - 24:00</label>
+                    </div>
+                </form>
+            </div>    
+        </div>
+    </section>
+    <footer>
+        <h3>
+            Find us On:
+        </h3>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twiter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/7162a9ebe5.js" crossorigin="anonymous"></script>   
+    
+</body>
