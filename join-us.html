@@ -35,7 +35,7 @@
             </div>
         </nav>
     </header>
-    <h2>Fill out the form and Join Us</h2>
+    <h2 class="page-heading">Fill out the form and Join Us</h2>
     <section id="form-section">
         <div id="data-days-form">
             <div id="data">
@@ -58,8 +58,8 @@
                 </form>
             </div>
             <div id="days">
-                <form action="https://formdump.codeinstitute.net/" method="POST">
-                    <p>Day(s) to Play</p>
+                <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                    <p class="form-paragraph">Day(s) to Play</p>
                     <div>
                         <input type="checkbox" name="monday" id="monday-checkbox">
                         <label for="monday-checkbox">Monday</label>
@@ -93,8 +93,8 @@
         </div>
         <div id="game-time-form">
             <div id="game">
-                <form action="https://formdump.codeinstitute.net/" method="POST">
-                    <p>Games you like</p>
+                <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                    <p class="form-paragraph">Games you like</p>
                     <div>                
                         <input type="checkbox" name="play-wow" id="play-wow-checkbox">
                         <label for="wow">World of Warcraft</label>
@@ -112,13 +112,10 @@
                         <label for="play-albion-checkbox">Albion Online</label>
                     </div>
                 </form>
-            </div>
-            <div id="join">
-                <input type="submit" value="Join Us">
-            </div>
+            </div>            
             <div id="time">
-                <form action="https://formdump.codeinstitute.net/" method="POST">
-                    <p>Time(s) to Play</p>
+                <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                    <p class="form-paragraph">Time(s) to Play</p>
                     <div>                
                         <input type="checkbox" name="quarter-one" id="quarter-one-checkbox">
                         <label for="quarter-one-checkbox">00:00 - 06:00</label>
@@ -137,6 +134,11 @@
                     </div>
                 </form>
             </div>    
+        </div>
+        <div id="join">
+            <input type="submit" value="Join Us" class="action">
+            <br>
+            <input id="clear" type="reset" value="Clear Form" class="action">
         </div>
     </section>
     <footer>

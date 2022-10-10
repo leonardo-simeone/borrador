@@ -347,6 +347,12 @@ footer ul li {
     flex-direction: row;
     align-items: baseline;
     flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+
+.checkboxes {
+    line-height: 22px;
 }
 
 .text-input {
@@ -362,19 +368,17 @@ footer ul li {
 #data form {
     width: 40%;
     height: 80%;
-    margin-left: 10%;
+    margin: 0;
 }
 
-#days {
-    /* flex: 1; */
-    color: antiquewhite;
-    margin-right: 9%;
+#days {    
+    color: antiquewhite;    
 }
 
 #days form {
     width: 100%;
-    height: 80%;
-    line-height: 25px;    
+    height: 80%;    
+    margin-right: 7px;    
 }
 
 #game-time-form {
@@ -383,20 +387,48 @@ footer ul li {
     align-items: baseline;
     flex-wrap: wrap;
     color: antiquewhite;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+
 #game {
-    flex: 1.5;
-    margin-left: 8%;
+    flex: 1.5;    
+}
+
+.form-paragraph{
+    margin-bottom: 0;
+    padding: 5px;
 }
 
 #join {
-    flex: 1.2;
+    text-align: center;
+    margin-top: 50px;    
 }
 
-#time {
-    margin-right: 7.6%;
+.action {
+    font-size: 250%;
+    background-color: chartreuse;
+    border-radius: 15px;
+    border: 2px solid beige;
 }
+
+#clear {
+    margin-top: 10px;
+}
+
+.page-heading {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: bisque;
+    height: 75px;
+    line-height: 75px;
+}
+
+/* #time {
+    margin-right: 7.6%;
+} */
 
 
 
@@ -439,6 +471,11 @@ footer ul li {
         #wow, #cs-go, #lol, #albion {
             font-size: 150%;
         }
+
+        #data form {
+            width: 30%;
+            /* margin-left: 10%; */
+        }
     }
     
     
@@ -473,6 +510,11 @@ footer ul li {
 
         #wow, #cs-go, #lol, #albion {
             font-size: 140%;
+        }
+
+        #data form {
+            width: 50%;
+            /* margin-left: 10%; */
         }
     }
 
@@ -525,6 +567,11 @@ footer ul li {
 
         #wow, #cs-go, #lol, #albion {
             font-size: 120%;
+        }
+
+        #data form {
+            width: 60%;
+            /* margin-left: 10%; */
         }
         
     }
@@ -641,21 +688,31 @@ footer ul li {
             font-size: 110%;
         }
 
-        #data-form {
+        #data-days-form {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #game-time-form {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        #data form {
             width: 70%;
             /* margin-left: 10%; */
         }
 
-        #days form > p {
+        /* #days form > p {
             margin-bottom: 0;
             padding: 5px;
-        }
+        } */
 
-        #join {
+        /* #join {
             display: flex;
             align-items: center;
             justify-content: center;
-        }
+        } */
     }
         
     
