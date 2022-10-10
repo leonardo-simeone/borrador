@@ -21,8 +21,7 @@ h1, h2, h3 {
     justify-content: space-between;
 }
 
-#menu ul {
-    /* text-align: right; */
+#menu ul {    
     color: aliceblue;
     font-size: larger;
     font-weight: 300;
@@ -34,9 +33,7 @@ h1, h2, h3 {
     display: inline;
     background-color: blue;
     border-radius: 5px;
-    padding: 5px;
-    /* margin: 5px; */
-    /* text-align: center; */
+    padding: 5px;    
 }
 
 #menu a {
@@ -426,13 +423,6 @@ footer ul li {
     line-height: 75px;
 }
 
-/* #time {
-    margin-right: 7.6%;
-} */
-
-
-
-
     /* esto es el media querie para las imagenes y texto del homepage hasta tamano laptop y monitores grandes */
 
     @media screen and (min-width:1601px) {
@@ -444,13 +434,7 @@ footer ul li {
         }
     }
 
-    @media screen and (min-width:1470px) {
-        /* .image-text-container p {
-            font-size: 260%;
-        }
-        #welcome-p {
-            font-size: 260%;
-        } */
+    @media screen and (min-width:1470px) {        
 
         #games h2 {            
             font-size: 220%;
@@ -724,34 +708,14 @@ footer ul li {
         }
 
         #data form {
-            width: 70%;
-            /* margin-left: 10%; */
+            width: 70%;            
         }
-
-        /* #days form > p {
-            margin-bottom: 0;
-            padding: 5px;
-        } */
-
-        /* #join {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        } */
+        
+        .page-heading {
+            font-size: 140%;
+        } 
     }
         
-    
-
-    /* @media screen and (max-width:635px) {
-        #video h3 {
-            font-size: 90%;
-            margin: 25px 8.3vw;
-            height: 75px;
-            
-            padding: 5px;
-    }
-} */
-
     /* media queries para moviles */
 
     @media screen and (max-width:480px) {
@@ -784,6 +748,10 @@ footer ul li {
             font-size: 130%;
         }
 
+        #menu h1 {
+            font-size: 130%;
+        }
+
         #menu li {
             margin: 5px;
         }
@@ -813,13 +781,26 @@ footer ul li {
             font-size: 100%;
         }
 
+        .page-heading {
+            height: 50px;
+            line-height: 50px;
+            font-size: 80%;
+            margin-top: auto;
+            margin-bottom: 15px;
+        }
+
         #form-section {
             background: url(../images/form-page-image-2.jpg);
             background-size: cover;
             background-position: bottom;
+            padding: 15px;
         }
 
         #data-days-form {            
+            flex-direction: column;
+        }
+
+        #game-time-form {
             flex-direction: column;
         }
 
@@ -833,8 +814,62 @@ footer ul li {
             margin: 0;
         }
 
-        #days {
-            width: 70%;
+        .checkbox-div {
+            width: 80%;
+            margin: 0 0 15px 5vw;
+        }
+
+        .checkboxes {
+            width: 100%;
+            height: 80%;
+            line-height: 25px;
+            font-size: 19px;
+            background-color: rgba(220, 220, 220, .8);
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        #join {
+            text-align: center;
+            margin-top: 2px;    
+        }
+        
+        .action {
+            font-size: 150%;
+            background-color: chartreuse;
+            border-radius: 5px;
+            border: 2px solid beige;
+            margin-bottom: 10px;
+        }
+        
+        /* #clear {
+            margin-top: 10px;
+        } */
+
+        /* .forms {
+            width: 100%;
+            height: 80%;
+            line-height: 25px;
+            font-size: 19px;
+            background-color: rgba(220, 220, 220, .8);
+            border-radius: 5px;
+            padding: 5px;
+        } */
+
+        .form-paragraph {
+            margin-bottom: 0;
+            margin-top: 0;
+            /* padding: 5px; */
+            text-align: center;
+        }
+
+        /* #days {
+            width: 80%;
+            margin: 0 0 15px 5vw;
+        }
+
+        #game {
+            width: 80%;
             margin: 0 0 15px 5vw;
         }
 
@@ -842,7 +877,7 @@ footer ul li {
             width: 100%;
             height: 80%;
             line-height: 25px;
-            font-size: 20px;
+            font-size: 19px;
             background-color: rgba(220, 220, 220, .8);
             border-radius: 5px;
             padding: 5px;
@@ -852,17 +887,14 @@ footer ul li {
             margin-top: 5px;
             margin-bottom: 5px;
             text-align: center;
-        }
+        } */
 
     }
 
-
-
-
     @media screen and (max-width:447px) {
-        #menu h1 {
+        /* #menu h1 {
             font-size: 150%;
-        }
+        } */
         .image-text-container p {            
             font-size: 110%;
         }
