@@ -1,15 +1,23 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Titillium+Web&display=swap');
 
 body {
+    font-family: Titillium Web, sans-serif;
+    font-weight: 300;
+    color: #222219;
     margin: 0 30px;
 }
 
+/* headings styling */
+
 h1, h2, h3 {
+    font-family: Dosis, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #153B4D; /*squash pallete*/
+    text-align: center;    
 }
 
 /* esto son los table data del logo y el menu */
-
 
 #menu h1 {
     font-size: 200%;    
@@ -42,6 +50,7 @@ h1, h2, h3 {
 }
 
 /* esto es la imagen heroe */
+
 #hero-image-container { 
     height: 600px;
     width: 100%;
@@ -60,7 +69,7 @@ h1, h2, h3 {
 
 div #overlay {
     width: 350px;
-    height: 200px;
+    height: 190px;
     position: absolute;       
     top: 250px;
     left: 20px;
@@ -71,7 +80,7 @@ div #overlay {
 
 #overlay h2{
     color: whitesmoke;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .line {
@@ -89,24 +98,27 @@ div #overlay {
     border-radius: 15px; 
     margin-top: 10px;
     margin-bottom: 30px;
-    line-height: 37.5px;
+    /* line-height: 37.5px; */
+    font-size: 120%;
+    /* text-align: center;
+    text-transform: uppercase; */
 }
 
-#games h2 {
+/* #games h2 {
     text-align: center;
     text-transform: uppercase;
-}
+} */
 
 /* esto es las imagenes y el texto de games we play que tienen clases que se usan para el welcoming tambien */
 
 .image-text-container {
-    border: 1px solid black;
-    border-radius: 15px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 15px;    
+    align-items: center;    
     background-color: antiquewhite;
 }
 
@@ -254,28 +266,33 @@ footer ul li {
     border-radius: 15px;
 }
 
-#time-heading h2 {
+/* #time-heading h2 {
     text-align: center;
-}
+} */
 
 .tables-1-2 {
     display: flex;
-    flex-direction: row;
-    height: 450px;
+    flex-direction: row;    
     align-items: normal;
+    height: 450px;
 }
 
 .tables-3-4 {
     display: flex;
     flex-direction: row;
-    height: 450px;
     align-items: normal;
+    height: 450px;    
 }
 
 .timetable table, .timetable td {
     text-align: center;
     border: 1px solid white;
     border-collapse: collapse;
+}
+
+.timetable td {
+    padding: 5px;
+    font-size: 100%;
 }
 
 #wow {    
@@ -369,7 +386,8 @@ footer ul li {
 }
 
 #days {    
-    color: antiquewhite;    
+    color: antiquewhite;
+    margin-right: 6px;        
 }
 
 #days form {
@@ -427,10 +445,14 @@ footer ul li {
 
     @media screen and (min-width:1601px) {
         .image-text-container p {
-            font-size: 260%;
+            font-size: 252%;
         }
         #welcome-p {
             font-size: 254%;
+        }
+
+        .timetable td {            
+            font-size: 112%;
         }
     }
 
@@ -473,7 +495,7 @@ footer ul li {
 
     @media screen and (max-width:1470px) {
         .image-text-container p {
-            font-size: 184%;
+            font-size: 178%;
         }
         #welcome-p {
             font-size: 180%;
@@ -582,6 +604,8 @@ footer ul li {
             width: 60%;
             /* margin-left: 10%; */
         }
+
+        
         
     }
 
@@ -604,7 +628,7 @@ footer ul li {
 
         div #overlay {
             width: 200px;
-            height: 150px;
+            height: 160px;
             padding: 0;
             top: 100px;
         }
@@ -708,7 +732,11 @@ footer ul li {
         }
 
         #data form {
-            width: 70%;            
+            width: 72%;            
+        }
+
+        #days {
+            margin-right: 5px;
         }
         
         .page-heading {
@@ -730,7 +758,7 @@ footer ul li {
 
         div #overlay {
             width: 150px;
-            height: 130px;
+            height: 150px;
             padding: 0;
             top: 120px;
             left: 10px;            
@@ -770,7 +798,7 @@ footer ul li {
         }
 
         #video h3 {
-            font-size: 80%;
+            font-size: 70%;
             margin: 25px 7.299999999999997vw;
             height: 37.5px;
             line-height: 18.75px;
@@ -784,7 +812,7 @@ footer ul li {
         .page-heading {
             height: 50px;
             line-height: 50px;
-            font-size: 80%;
+            font-size: 78%;
             margin-top: auto;
             margin-bottom: 15px;
         }
@@ -794,6 +822,10 @@ footer ul li {
             background-size: cover;
             background-position: bottom;
             padding: 15px;
+        }
+
+        .timetable td {            
+            font-size: 98%;
         }
 
         #data-days-form {            
@@ -823,7 +855,7 @@ footer ul li {
             width: 100%;
             height: 80%;
             line-height: 25px;
-            font-size: 19px;
+            font-size: 18px;
             background-color: rgba(220, 220, 220, .8);
             border-radius: 5px;
             padding: 5px;
@@ -831,7 +863,7 @@ footer ul li {
 
         #join {
             text-align: center;
-            margin-top: 2px;    
+            margin-top: 20px;    
         }
         
         .action {
