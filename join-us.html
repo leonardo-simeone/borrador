@@ -26,20 +26,22 @@
     <header>
         <nav>
             <div id="menu">
-                <h1 class="logo-menu-margins">Online Gaming Club</h1>
+                <h1 class="logo-menu-margins"><a href="index.html">Online Gaming Club</a></h1>
                 <ul class="logo-menu-margins">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#games">Games</a></li>
                     <li><a href="about-us.html">About Us</a></li>
                     <li><a href="timetable.html">TimeTable</a></li>
-                    <li><a href="#">Join Us</a></li>
+                    <li class="active"><a href="join-us.html">Join Us</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <h2 class="page-heading">Fill out the form and Join Us</h2>
+    <div id="form-heading" class="all-headings">
+        <h2 class="headings-margin">Join the fun! <i class="fa-solid fa-computer"></i></h2>
+    </div>    
     <section id="form-section">
-        <div id="data-days-form">
+        <div id="data-days-form" class="form-font-color">
             <div id="data">
                 <form action="https://formdump.codeinstitute.net/" method="POST">
                     <div>
@@ -59,7 +61,7 @@
                     </div>
                 </form>
             </div>
-            <div id="days" class="checkbox-div">
+            <div id="days" class="checkbox-div form-font-color-small">
                 <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
                     <p class="form-paragraph">Day(s) to Play</p>
                     <div>
@@ -93,7 +95,7 @@
                 </form>
             </div>
         </div>
-        <div id="game-time-form">
+        <div id="game-time-form" class="form-font-color form-font-color-small">
             <div id="game" class="checkbox-div">
                 <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
                     <p class="form-paragraph">Games you like</p>
@@ -144,10 +146,10 @@
         </div>
     </section>
     <footer>
-        <h3>
+        <h3 class="footer-style">
             Find us On:
         </h3>
-        <ul>
+        <ul class="footer-style">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>

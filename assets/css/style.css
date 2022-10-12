@@ -3,7 +3,7 @@
 body {
     font-family: Titillium Web, sans-serif;
     font-weight: 300;
-    color: #222219;
+    color: #222219; /* main color */
     margin: 0 30px;
 }
 
@@ -13,7 +13,7 @@ h1, h2, h3 {
     font-family: Dosis, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #153B4D; /*squash pallete*/
+    color: #153B4D; /* squash pallete */
     text-align: center;    
 }
 
@@ -38,15 +38,23 @@ h1, h2, h3 {
 #menu li {
     list-style-type: none;
     display: inline;
-    background-color: #F1EAE2; /*Small Switch Palette*/
+    background-color: #00C9B0; /* twisted spot Palette */
     border-radius: 5px;
     padding: 5px;
     margin-left: 5px;   
 }
 
+#menu ul a {    
+    color: #222219;
+}
+
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #153B4D;
+}
+
+.active {
+    border: 2px solid #222219;
 }
 
 /* esto es la imagen heroe */
@@ -74,35 +82,49 @@ div #overlay {
     top: 250px;
     left: 20px;
     padding: 10px 0 0 15px;
-    background-color: rgba(12, 11, 11, 0.7);
+    background-color: rgba(241, 234, 226, 0.9);
     border-radius: 15px;  
 }
 
-#overlay h2{
+/* #overlay h2{
     color: whitesmoke;
-    /* text-align: center; */
-}
+    text-align: center;
+} */
 
 .line {
-    border: 1px solid black;
+    border: 1px solid #222219;
     margin: 30px 5px;
 }
 
 /* esto es el titulo h2 de games we play */
 
 #games {
-    width: 100%;
+    /* width: 100%; */
     height: 75px;
     background-color: #F1EAE2;
-    border: 1px solid black;
+    border: 1px solid #222219;
     border-radius: 15px; 
     margin-top: 10px;
-    margin-bottom: 30px;
-    /* line-height: 37.5px; */
-    font-size: 120%;
+    margin-bottom: 20px;
+    line-height: 75px;
+    font-size: 150%;
     /* text-align: center;
     text-transform: uppercase; */
 }
+
+.all-headings {
+    height: 75px;
+    background-color: #F1EAE2;
+    border-radius: 15px;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.headings-margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* #games h2 {
     text-align: center;
@@ -116,7 +138,7 @@ div #overlay {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid black;
+    border: 1px solid #222219;
     border-radius: 15px;    
     align-items: center;    
     background-color: #F1EAE2;
@@ -145,32 +167,28 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;   
+    margin-top: 30px;
+    margin-bottom: 15px;
+    height: 75px;   
 }
 
-footer h3 {
-    width: 100%;    
-    text-align: center;
-    background-color: blue;
-    margin: 0; 
-    height: 75px;
-    line-height: 75px;
+footer h3 {    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px; 
 }
 
-footer ul {
-    width: 100%;    
-    text-align: center;
-    background-color: red;
-    padding: 0;
-    margin: 0; 
-    height: 75px;
-    line-height: 75px;
+footer ul {    
     border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin: 0 0 20px 0;
+    border-bottom-right-radius: 15px;    
     list-style-type: none;   
+}
+
+.footer-style {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    background-color: #00C9B0;
 }
 
 footer ul li {
@@ -190,22 +208,24 @@ footer ul li {
     display: inline;
 }
 
-#about h2 {
-    font-size: 120%;
-    background-color: bisque;
+/* #about-heading {
     height: 75px;
-    line-height: 75px;
+    background-color: bisque;
     border-radius: 15px;
-    margin: 25px 0;
+    line-height: 75px;
+} */
+
+#about-heading h2 {
+    font-size: 120%;
 }
 
 #about-intro p {
     text-align: justify;
     font-size: 100%;
     padding: 30px;
-    background-color: bisque;
+    background-color: #F1EAE2;
     border-radius: 15px;
-    margin: 25px 0
+    margin: 20px 0
 }
 
 /* esto es para el video de about us */
@@ -214,7 +234,7 @@ footer ul li {
     font-size: 170%;
     margin: 25px 9.3vw;
     text-align: center;
-    background-color: bisque;
+    background-color: #F1EAE2;
     height: 75px;
     line-height: 75px;
     border-radius: 15px;
@@ -259,16 +279,23 @@ footer ul li {
 /* esto es para la pagina de timetable */
 
 #games-timetable {
-    height: 100%;
+    /* height: 100%;
     background: url(../images/timetables.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: cover; */
     overflow: hidden;
     border-radius: 15px;
 }
 
-/* #time-heading h2 {
-    text-align: center;
+/* #time-heading {
+    height: 75px;
+    background-color: bisque;
+    line-height: 75px;
+    border-radius: 15px;
 } */
+
+#time-heading h2 {
+    font-size: 220%;
+}
 
 .tables-1-2 {
     display: flex;
@@ -286,7 +313,7 @@ footer ul li {
 
 .timetable table, .timetable td {
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid #153B4D;
     border-collapse: collapse;
 }
 
@@ -296,8 +323,8 @@ footer ul li {
 }
 
 #wow {    
-    background-color: rgba(245, 245, 245, .8);    
-    color: black;
+    background-color: rgba(122, 181, 182, .5); /* #7AB5BA dotting pallete */   
+    /* color: black; */
     font-size: 145%;
     flex: 1;
 }
@@ -310,7 +337,7 @@ footer ul li {
 
 #cs-go {
     font-size: 145%;
-    background-color: blueviolet;    
+    background-color: rgba(172, 172, 160, .5); /* #ACACA0 friend pallete */
     flex: 1;
 }
 
@@ -321,7 +348,7 @@ footer ul li {
 }
 
 #lol {   
-    background-color: brown;
+    background-color: rgba(255, 199, 161, .5); /* #FFC7A1 skip shade gradient */
     font-size: 145%;
     flex: 1;
 }
@@ -333,7 +360,7 @@ footer ul li {
 }
 
 #albion {   
-    background-color: chartreuse;    
+    background-color: rgba(231, 131, 96, .5); /* #E78360 skip gradient */
     font-size: 145%;
     flex: 1;
 }
@@ -356,6 +383,14 @@ footer ul li {
     padding: 25px;
 }
 
+.form-font-color {
+    color: #F1EAE2;
+}
+
+#form-heading h2 {
+    font-size: 220%;
+}
+
 #data-days-form {
     display: flex;
     flex-direction: row;
@@ -376,7 +411,7 @@ footer ul li {
 
 #data {
     flex: 1;
-    color: antiquewhite;
+    /* color: antiquewhite; */
 }
 
 #data form {
@@ -386,7 +421,7 @@ footer ul li {
 }
 
 #days {    
-    color: antiquewhite;
+    /* color: antiquewhite; */
     margin-right: 6px;        
 }
 
@@ -401,7 +436,7 @@ footer ul li {
     flex-direction: row;
     align-items: baseline;
     flex-wrap: wrap;
-    color: antiquewhite;
+    /* color: antiquewhite; */
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -422,23 +457,24 @@ footer ul li {
 }
 
 .action {
-    font-size: 250%;
-    background-color: chartreuse;
-    border-radius: 15px;
-    border: 2px solid beige;
+    font-size: 200%;
+    background-color: #F1EAE2;
+    border-radius: 5px;
+    border: 2px solid #222219;
 }
 
 #clear {
     margin-top: 10px;
 }
 
-.page-heading {
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: bisque;
-    height: 75px;
+#page-heading {
+    /* height: 75px;
     line-height: 75px;
+    font-size: 100%;    
+    background-color: bisque;    
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px; */
 }
 
     /* esto es el media querie para las imagenes y texto del homepage hasta tamano laptop y monitores grandes */
@@ -460,13 +496,14 @@ footer ul li {
 
         #games h2 {            
             font-size: 220%;
-            line-height: 20px;
+            line-height: 70px;
+            margin: 0 auto;
         }
         
         #about h2 {
-            font-size: 100%;
-            height: 75px;
-            line-height: 75px;
+            font-size: 120%;
+            /* height: 75px;
+            line-height: 75px; */
         }
 
         #about-intro p {
@@ -490,6 +527,10 @@ footer ul li {
         #data form {
             width: 30%;            
         }
+        
+        footer ul li {
+            margin: 120px;
+        }
     }
 
     @media screen and (max-width:1470px) {
@@ -502,7 +543,11 @@ footer ul li {
         }
     }
     
-    
+    @media screen and (min-width:1171px) {
+        #games {
+            line-height: 15px;            
+        }
+    }
     
     @media screen and (max-width:1170px) { 
         
@@ -516,11 +561,16 @@ footer ul li {
         #welcome-p {
             font-size: 140%;
         }
+
+        #games {
+            line-height: 25px;
+            font-size: 120%;
+        }
         
         #about h2 {
             font-size: 90%;
-            height: 75px;
-            line-height: 75px;
+            /* height: 75px;
+            line-height: 75px; */
         }
 
         #about-intro p {
@@ -528,6 +578,10 @@ footer ul li {
             font-size: 90%;
             padding: 30px;
             line-height: 45px;
+        }
+
+        #form-heading h2, #time-heading h2 {            
+            font-size: 200%;            
         }
 
         #video h3 {
@@ -583,8 +637,8 @@ footer ul li {
 
         #about h2 {
             font-size: 85%;
-            height: 75px;
-            line-height: 75px;
+            /* height: 75px;
+            line-height: 75px; */
         }
 
         #about-intro p {
@@ -593,6 +647,11 @@ footer ul li {
             padding: 25px;
             line-height: 38px;
         }
+
+        #form-heading h2, #time-heading h2 {            
+            font-size: 180%;            
+        }
+
 
         #video h3 {
             font-size: 130%;
@@ -623,6 +682,14 @@ footer ul li {
        .logo-menu-margins {
             margin-top: 10px;
             margin-bottom: 10px;
+        }
+
+        footer {
+            margin-bottom: 30px;
+        }
+
+        footer h3 {
+            font-size: 150%;
         }
     }
 
@@ -692,7 +759,7 @@ footer ul li {
             padding: 0;
         }
 
-        #menu a {
+        #menu ul a {
             font-size: 18px;
             letter-spacing: 6px;
         }
@@ -701,10 +768,15 @@ footer ul li {
             margin: 5px 45px;
         }
 
+        #games {
+            line-height: 35px;
+            font-size: 100%;
+        }
+        
         #about h2 {
             font-size: 80%;
-            height: 75px;
-            line-height: 75px;
+            /* height: 75px;
+            line-height: 75px; */
         }
 
         #about-intro p {
@@ -712,6 +784,10 @@ footer ul li {
             font-size: 70%;
             padding: 25px;
             line-height: 38px;
+        }
+
+        #form-heading h2, #time-heading h2 {            
+            font-size: 150%;            
         }
 
         #video h3 {
@@ -795,10 +871,19 @@ footer ul li {
             margin: 5px;
         }
 
+        /* .headings-margin {
+            margin-top: 10px;
+        } */
+
         #about h2 {
             font-size: 60%;
-            height: 37.5px;
-            line-height: 37.5px;
+            /* height: 37.5px;
+            line-height: 37.5px; */
+        }
+
+        #games {
+            line-height: 42px;
+            font-size: 80%;
         }
 
         #about-intro p {
@@ -806,6 +891,14 @@ footer ul li {
             font-size: 55%;
             padding: 15px;
             line-height: 30px;
+        }
+
+        #form-heading h2, #time-heading h2 {            
+            font-size: 120%;            
+        }
+
+        .form-font-color-small {
+            color: #222219;
         }
 
         #video h3 {
@@ -818,15 +911,7 @@ footer ul li {
 
         #wow, #cs-go, #lol, #albion {
             font-size: 100%;
-        }
-
-        .page-heading {
-            height: 50px;
-            line-height: 50px;
-            font-size: 78%;
-            margin-top: auto;
-            margin-bottom: 15px;
-        }
+        }        
 
         #form-section {
             background: url(../images/form-page-image-2.jpg);
@@ -867,7 +952,7 @@ footer ul li {
             height: 80%;
             line-height: 25px;
             font-size: 18px;
-            background-color: rgba(220, 220, 220, .8);
+            background-color: rgba(220, 220, 220, .95);
             border-radius: 5px;
             padding: 5px;
         }
@@ -879,9 +964,9 @@ footer ul li {
         
         .action {
             font-size: 150%;
-            background-color: chartreuse;
+            /* background-color: chartreuse;
             border-radius: 5px;
-            border: 2px solid beige;
+            border: 2px solid beige; */
             margin-bottom: 10px;
         }
         
