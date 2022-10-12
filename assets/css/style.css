@@ -48,6 +48,10 @@ h1, h2, h3 {
     color: #222219;
 }
 
+#menu ul li:hover {    
+    background-color: #F1EAE2;
+}
+
 #menu a {
     text-decoration: none;
     color: #153B4D;
@@ -467,15 +471,7 @@ footer ul li {
     margin-top: 10px;
 }
 
-#page-heading {
-    /* height: 75px;
-    line-height: 75px;
-    font-size: 100%;    
-    background-color: bisque;    
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-bottom: 15px; */
-}
+
 
     /* esto es el media querie para las imagenes y texto del homepage hasta tamano laptop y monitores grandes */
 
