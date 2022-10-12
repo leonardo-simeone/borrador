@@ -201,6 +201,10 @@ footer ul li {
     font-size: 200%;
 }
 
+footer a {
+    color: #222219;
+}
+
 /* esto es para el titulo de about us page */
 
 #about {
