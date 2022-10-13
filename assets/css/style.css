@@ -228,7 +228,9 @@ footer a {
 /* about-us page trailer video css to mantain aspect ratio */
 
 .video-wrapper {
-    width:80%;
+   display: flex;
+   flex-direction: column;
+   width:80%;
    height:100%;
    margin:0 auto;
    background:#CCC;   
