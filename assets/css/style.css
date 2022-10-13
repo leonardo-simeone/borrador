@@ -228,15 +228,13 @@ footer a {
 /* about-us page trailer video css to mantain aspect ratio */
 
 .video-wrapper {
-   display: flex;
-   flex-direction: column;
-   width:80%;
-   height:100%;
-   margin:0 auto;
-   background:#CCC;   
+    position: relative;
+    max-width: 900px;
+    height: 450px;
+    margin: 0 auto 3%;
 }
 
-.h_iframe {
+/* .h_iframe {
     position:relative;
 }
 
@@ -244,14 +242,14 @@ footer a {
    display:block;
    width:100%;
    height:auto;
-}
+} */
 
-.h_iframe iframe {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
  }
 
 /* .video-wrapper iframe {
