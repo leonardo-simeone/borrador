@@ -8,21 +8,10 @@
     <meta name="description" content="Online Gaming Club for mmo games players around the world">
     <meta name="keywords" content="online gaming, gaming club, mmo games, mmorpg, mmo shooter, world wide gaming">
     <title>Probando Grid</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("form").submit(function(){
-                if ($('input:checkbox').filter(':checked').length < 1){
-                alert("Check at least one Game!");
-                return false;
-                }
-            });
-        });
-        </script>
+    <link rel="stylesheet" href="assets/css/style.css">    
 </head>
-
 <body>
+    <!-- join-us page header including logo and nav links with visual cues -->
     <header>
         <nav>
             <div id="menu">
@@ -40,24 +29,24 @@
     <div id="form-heading" class="all-headings">
         <h2 class="headings-margin">Join the fun! <i class="fa-solid fa-computer"></i></h2>
     </div>    
-    <section id="form-section">
+    <section id="form-section"> <!-- main join-us page section including the form gathering the necesary information from the user to match them with the appropriate team -->
         <div id="data-days-form" class="form-font-color">
             <div id="data">
                 <form action="https://formdump.codeinstitute.net/" method="POST">
                     <div>
                         <label for="fname">First Name</label>
-                        <input class="text-input" id="fname" type="text" name="first_name" placeholder="Your First Name"
+                        <input class="text-input" id="fname" type="text" name="first_name" placeholder="Enter your First Name"
                             required>
                     </div>
                     <div>
                         <label for="lname">Last Name</label>
-                        <input class="text-input" id="lname" type="text" name="last_name" placeholder="Your Last Name"
+                        <input class="text-input" id="lname" type="text" name="last_name" placeholder="Enter your Last Name"
                             required>
                     </div>
                     <div>
                         <label for="email">Email Address</label>
                         <input class="text-input" id="email" type="email" name="email_address"
-                            placeholder="Your Email Address" required>
+                            placeholder="Enter your Email Address" required>
                     </div>
                 </form>
             </div>
@@ -145,7 +134,7 @@
             <input id="clear" type="reset" value="Clear Form" class="action">
         </div>
     </section>
-    <footer>
+    <footer> <!-- footer for all pages -->
         <h3 class="footer-style">
             Find us On:
         </h3>

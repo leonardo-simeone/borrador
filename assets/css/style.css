@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Titillium+Web&display=swap');
 
+/* body styling */
+
 body {
     font-family: Titillium Web, sans-serif;
     font-weight: 300;
@@ -17,7 +19,7 @@ h1, h2, h3 {
     text-align: center;    
 }
 
-/* esto son los table data del logo y el menu */
+/* logo and menu styling */
 
 #menu h1 {
     font-size: 240%;    
@@ -58,10 +60,10 @@ h1, h2, h3 {
 }
 
 .active {
-    border: 2px solid #222219;
+    border: 2px solid #153B4D;
 }
 
-/* esto es la imagen heroe */
+/* hero image */
 
 #hero-image-container { 
     height: 600px;
@@ -90,20 +92,14 @@ div #overlay {
     border-radius: 15px;  
 }
 
-/* #overlay h2{
-    color: whitesmoke;
-    text-align: center;
-} */
-
 .line {
     border: 1px solid #222219;
     margin: 30px 5px;
 }
 
-/* esto es el titulo h2 de games we play */
+/* welcome and games we play styling */
 
-#games {
-    /* width: 100%; */
+#games {    
     height: 75px;
     background-color: #F1EAE2;
     border: 1px solid #222219;
@@ -111,9 +107,7 @@ div #overlay {
     margin-top: 10px;
     margin-bottom: 20px;
     line-height: 75px;
-    font-size: 150%;
-    /* text-align: center;
-    text-transform: uppercase; */
+    font-size: 150%;   
 }
 
 .all-headings {
@@ -128,14 +122,6 @@ div #overlay {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
-/* #games h2 {
-    text-align: center;
-    text-transform: uppercase;
-} */
-
-/* esto es las imagenes y el texto de games we play que tienen clases que se usan para el welcoming tambien */
 
 .image-text-container {
     display: flex;
@@ -164,7 +150,7 @@ div #overlay {
     padding: 0 15px 0 15px;
 }
 
-/* esto es para el footer */
+/* footer styling */
 
 footer {    
     display: flex;    
@@ -205,7 +191,7 @@ footer a {
     color: #222219;
 }
 
-/* esto es para el titulo de about us page */
+/* about-us styling */
 
 #about {
     width: 80%;
@@ -216,15 +202,8 @@ footer a {
     display: inline;
 }
 
-/* #about-heading {
-    height: 75px;
-    background-color: bisque;
-    border-radius: 15px;
-    line-height: 75px;
-} */
-
-#about-heading h2 {
-    font-size: 120%;
+#form-heading h2, #time-heading h2, #about-heading h2 { /* about-us, timetable and join-us pages headings styling */
+    font-size: 220%;
 }
 
 #about-intro p {
@@ -233,10 +212,8 @@ footer a {
     padding: 30px;
     background-color: #F1EAE2;
     border-radius: 15px;
-    margin: 20px 0
+    margin: 20px 0;
 }
-
-/* esto es para el video de about us */
 
 #video h3 {
     font-size: 170%;
@@ -248,14 +225,13 @@ footer a {
     border-radius: 15px;
 }
 
+/* about-us page trailer video css to mantain aspect ratio */
+
 .video-wrapper {
     width:80%;
    height:100%;
    margin:0 auto;
-   background:#CCC    
-    /* position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    /*height: 0; */
+   background:#CCC;   
 }
 
 .h_iframe {
@@ -284,25 +260,11 @@ footer a {
     height: 80%;
   } */
 
-/* esto es para la pagina de timetable */
+/* timetable page styling */
 
-#games-timetable {
-    /* height: 100%;
-    background: url(../images/timetables.jpg) no-repeat center center;
-    background-size: cover; */
+#games-timetable {    
     overflow: hidden;
     border-radius: 15px;
-}
-
-/* #time-heading {
-    height: 75px;
-    background-color: bisque;
-    line-height: 75px;
-    border-radius: 15px;
-} */
-
-#time-heading h2 {
-    font-size: 220%;
 }
 
 .tables-1-2 {
@@ -330,17 +292,16 @@ footer a {
     font-size: 100%;
 }
 
-#wow {    
-    background-color: rgba(122, 181, 182, .5); /* #7AB5BA dotting pallete */   
-    /* color: black; */
-    font-size: 145%;
-    flex: 1;
-}
-
-#wow table {
+.table-size {
     width: 80%;
     height: 80%;
     margin: 45px auto;
+}
+
+#wow {    
+    background-color: rgba(122, 181, 182, .5); /* #7AB5BA dotting pallete */    
+    font-size: 145%;
+    flex: 1;
 }
 
 #cs-go {
@@ -349,22 +310,10 @@ footer a {
     flex: 1;
 }
 
-#cs-go table {
-    width: 80%;
-    height: 80%;
-    margin: 45px auto;
-}
-
 #lol {   
     background-color: rgba(255, 199, 161, .5); /* #FFC7A1 skip shade gradient */
     font-size: 145%;
     flex: 1;
-}
-
-#lol table {
-    width: 80%;
-    height: 80%;
-    margin: 45px auto;
 }
 
 #albion {   
@@ -373,13 +322,7 @@ footer a {
     flex: 1;
 }
 
-#albion table {
-    width: 80%;
-    height: 80%;
-    margin: 45px auto;
-}
-
-/* css for form page */
+/* form page styling */
 
 #form-section {
     clear: both;
@@ -393,10 +336,6 @@ footer a {
 
 .form-font-color {
     color: #F1EAE2;
-}
-
-#form-heading h2 {
-    font-size: 220%;
 }
 
 #data-days-form {
@@ -417,9 +356,12 @@ footer a {
     margin: 5px 0 20px;
 }
 
+.text-input:hover {
+    border-color: #00C9B0;
+}
+
 #data {
-    flex: 1;
-    /* color: antiquewhite; */
+    flex: 1;    
 }
 
 #data form {
@@ -428,8 +370,7 @@ footer a {
     margin: 0;
 }
 
-#days {    
-    /* color: antiquewhite; */
+#days {        
     margin-right: 6px;        
 }
 
@@ -443,8 +384,7 @@ footer a {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    flex-wrap: wrap;
-    /* color: antiquewhite; */
+    flex-wrap: wrap;    
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -471,13 +411,17 @@ footer a {
     border: 2px solid #222219;
 }
 
+.action:hover{
+    background-color: #222219;
+    color: #F1EAE2;
+    border: 2px solid #153B4D;
+}
+
 #clear {
     margin-top: 10px;
 }
 
-
-
-    /* esto es el media querie para las imagenes y texto del homepage hasta tamano laptop y monitores grandes */
+    /* media queries for laptops and desktops including big screens */
 
     @media screen and (min-width:1601px) {
         .image-text-container p {
@@ -498,13 +442,7 @@ footer a {
             font-size: 220%;
             line-height: 70px;
             margin: 0 auto;
-        }
-        
-        #about h2 {
-            font-size: 120%;
-            /* height: 75px;
-            line-height: 75px; */
-        }
+        }        
 
         #about-intro p {
             text-align: justify;
@@ -565,13 +503,7 @@ footer a {
         #games {
             line-height: 25px;
             font-size: 120%;
-        }
-        
-        #about h2 {
-            font-size: 90%;
-            /* height: 75px;
-            line-height: 75px; */
-        }
+        }        
 
         #about-intro p {
             text-align: justify;
@@ -580,7 +512,7 @@ footer a {
             line-height: 45px;
         }
 
-        #form-heading h2, #time-heading h2 {            
+        #form-heading h2, #time-heading h2, #about-heading h2 {            
             font-size: 200%;            
         }
 
@@ -596,8 +528,7 @@ footer a {
         }
 
         #data form {
-            width: 50%;
-            /* margin-left: 10%; */
+            width: 50%;            
         }
     }
 
@@ -606,8 +537,6 @@ footer a {
             flex: none;
             font-size: 150%;
         }
-
-        
 
         #menu ul {
             flex: none;            
@@ -634,13 +563,7 @@ footer a {
         #welcome-p {
             font-size: 130%;
         }
-
-        #about h2 {
-            font-size: 85%;
-            /* height: 75px;
-            line-height: 75px; */
-        }
-
+        
         #about-intro p {
             text-align: justify;
             font-size: 85%;
@@ -648,10 +571,9 @@ footer a {
             line-height: 38px;
         }
 
-        #form-heading h2, #time-heading h2 {            
+        #form-heading h2, #time-heading h2, #about-heading h2 {            
             font-size: 180%;            
         }
-
 
         #video h3 {
             font-size: 130%;
@@ -667,9 +589,6 @@ footer a {
         #data form {
             width: 60%;            
         }
-
-        
-        
     }
 
     @media screen and (max-width:907px) {
@@ -691,14 +610,45 @@ footer a {
         footer h3 {
             font-size: 150%;
         }
-    }
+    }    
 
-    
-
-/* estos son los media queries para tamano tablet y movil */
-
+/* media queries for tablets and mobile devices screens */
 
     @media screen and (max-width:768px) {
+
+        #menu {
+            flex-direction: column;
+            justify-content: stretch;           
+        }
+
+        #menu ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #menu h1 {
+            margin: 10px 0 0 0;
+            text-align: center;
+            padding: 0;
+        }
+
+        #menu ul a {
+            font-size: 18px;
+            letter-spacing: 6px;
+        }
+
+        #menu li {
+            margin: 5px 45px;
+        }
+
+        #games {
+            line-height: 35px;
+            font-size: 100%;
+        }
 
         #hero-image-container {
             height: 300px;
@@ -733,52 +683,15 @@ footer a {
             font-size: 140%;
         }
 
+        .page-heading {
+            font-size: 140%;
+        } 
+
         footer ul li {            
             margin: 30px;
             font-size: 150%;
-        }
+        }        
         
-        /* este es el media querie para el menu de navegacion hasta tablet size */
-        #menu {
-            flex-direction: column;
-            justify-content: stretch;           
-        }
-
-        #menu ul {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        #menu h1 {
-            margin: 10px 0 0 0;
-            text-align: center;
-            padding: 0;
-        }
-
-        #menu ul a {
-            font-size: 18px;
-            letter-spacing: 6px;
-        }
-
-        #menu li {
-            margin: 5px 45px;
-        }
-
-        #games {
-            line-height: 35px;
-            font-size: 100%;
-        }
-        
-        #about h2 {
-            font-size: 80%;
-            /* height: 75px;
-            line-height: 75px; */
-        }
-
         #about-intro p {
             text-align: center;
             font-size: 70%;
@@ -786,7 +699,7 @@ footer a {
             line-height: 38px;
         }
 
-        #form-heading h2, #time-heading h2 {            
+        #form-heading h2, #time-heading h2, #about-heading h2 {            
             font-size: 150%;            
         }
 
@@ -824,14 +737,10 @@ footer a {
 
         #days {
             margin-right: 5px;
-        }
-        
-        .page-heading {
-            font-size: 140%;
-        } 
+        }        
     }
         
-    /* media queries para moviles */
+    /* media queries mobile devices */
 
     @media screen and (max-width:480px) {
 
@@ -855,12 +764,6 @@ footer a {
             font-size: 80%;
             padding: 5px;
             margin-top: 13px;
-
-        }
-
-        footer ul li {            
-            margin: 15px;
-            font-size: 130%;
         }
 
         #menu h1 {
@@ -869,22 +772,17 @@ footer a {
 
         #menu li {
             margin: 5px;
-        }
-
-        /* .headings-margin {
-            margin-top: 10px;
-        } */
-
-        #about h2 {
-            font-size: 60%;
-            /* height: 37.5px;
-            line-height: 37.5px; */
-        }
+        }        
 
         #games {
             line-height: 42px;
             font-size: 80%;
         }
+
+        footer ul li {            
+            margin: 15px;
+            font-size: 130%;
+        }        
 
         #about-intro p {
             text-align: center;
@@ -893,7 +791,7 @@ footer a {
             line-height: 30px;
         }
 
-        #form-heading h2, #time-heading h2 {            
+        #form-heading h2, #time-heading h2, #about-heading h2 {            
             font-size: 120%;            
         }
 
@@ -910,7 +808,7 @@ footer a {
         }
 
         #wow, #cs-go, #lol, #albion {
-            font-size: 100%;
+            font-size: 95%;
         }        
 
         #form-section {
@@ -918,11 +816,7 @@ footer a {
             background-size: cover;
             background-position: bottom;
             padding: 15px;
-        }
-
-        .timetable td {            
-            font-size: 98%;
-        }
+        }        
 
         #data-days-form {            
             flex-direction: column;
@@ -963,67 +857,21 @@ footer a {
         }
         
         .action {
-            font-size: 150%;
-            /* background-color: chartreuse;
-            border-radius: 5px;
-            border: 2px solid beige; */
+            font-size: 150%;            
             margin-bottom: 10px;
-        }
-        
-        /* #clear {
-            margin-top: 10px;
-        } */
-
-        /* .forms {
-            width: 100%;
-            height: 80%;
-            line-height: 25px;
-            font-size: 19px;
-            background-color: rgba(220, 220, 220, .8);
-            border-radius: 5px;
-            padding: 5px;
-        } */
+        }       
 
         .form-paragraph {
             margin-bottom: 0;
-            margin-top: 0;
-            /* padding: 5px; */
+            margin-top: 0;            
             text-align: center;
         }
-
-        /* #days {
-            width: 80%;
-            margin: 0 0 15px 5vw;
-        }
-
-        #game {
-            width: 80%;
-            margin: 0 0 15px 5vw;
-        }
-
-        #days form {
-            width: 100%;
-            height: 80%;
-            line-height: 25px;
-            font-size: 19px;
-            background-color: rgba(220, 220, 220, .8);
-            border-radius: 5px;
-            padding: 5px;
-        }
-
-        #days form > p {
-            margin-top: 5px;
-            margin-bottom: 5px;
-            text-align: center;
-        } */
-
     }
 
     @media screen and (max-width:447px) {
-        /* #menu h1 {
-            font-size: 150%;
-        } */
+
         .image-text-container p {            
             font-size: 110%;
+            text-align: center;
         }
     }
