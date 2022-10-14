@@ -4,6 +4,8 @@ Online Gaming Club is a website that seeks to provide a service based on the nee
 
 Online Gaming Club offers a selection of different MMO video games to choose from, as well as a variety of servers and times from which users can pick and choose according to their own individual needs. Also the user can find a showcase of images and video that motivate online video gamers to join the club. Once a user has selected their preferences then and fully filled out the form provided then they will be assigned to a gaming team accordingly.
 
+<p>&nbsp;</p>
+
 ![Responsive Mockup](/assets/images/readme-images/am-i-responsive.JPG)
 
 ## Features
