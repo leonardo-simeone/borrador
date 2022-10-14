@@ -64,4 +64,40 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 <p>&nbsp;</p>
 
-* 
+* __About Us__
+
+    * In the About Us page, a more comprehensive explanation of the ONLINE GAMING CLUB is delivered in a compact paragraph, letting the user know what the club will do to make their gaming experience more enjoyable and team fun oriented and also where in the site and how to join the club.
+    * Also in this section an iframe was including featuring a team up fighting arena in World of Warcraft, by including this iframe, the user has the option to see what they could avail of should they decide to join.
+<p>&nbsp;</p>
+
+![About Us](/assets/images/readme-images/about-us-section.JPG)
+
+<p>&nbsp;</p>
+
+* __TimeTable__
+
+    * The TimeTable page was designed to inform the user what servers and time frames are the games in the club played in.
+    * This timetable indicates the user in detail how, the games, days, times and servers are structured in the gaming groups already formed.
+    * It also informs the user that all times are based on IST (irish standard time).
+    <p>&nbsp;</p>
+
+![TimeTable](/assets/images/readme-images/timetable-section.JPG)
+
+<p>&nbsp;IST Notification:</p>
+
+![TimeTable IST](/assets/images/readme-images/timetable-ist.JPG)
+
+<p>&nbsp;</p>
+
+* __Join Us__
+
+    * In the Join Us page, the user will find a form that they can fill out to join the club.
+    * The form contains sub-sections which cover the user's full name, email address, which days and times the user is available to play as well as which games and servers the user prefers to play in.
+    * The form was designed to be inviting and an image refering to video gaming technology was used as the form background to complement this approach.
+    * The submit and reset inputs types, feature visual cues to let the user know they are about to click/tap the element.
+    <p>&nbsp;</p>
+
+![Join Us](/assets/images/readme-images/join-us-section.JPG)
+
+<p>&nbsp;</p>
+
