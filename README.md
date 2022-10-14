@@ -9,7 +9,6 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 ![Responsive Mockup](/assets/images/readme-images/am-i-responsive.JPG)
 
 ## Features
----
 
 * __Navigation Bar__
 
