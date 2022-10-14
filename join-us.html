@@ -8,8 +8,9 @@
     <meta name="description" content="Online Gaming Club for mmo games players around the world">
     <meta name="keywords" content="online gaming, gaming club, mmo games, mmorpg, mmo shooter, world wide gaming">
     <title>Probando Grid</title>
-    <link rel="stylesheet" href="assets/css/style.css">    
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- join-us page header including logo and nav links with visual cues -->
     <header>
@@ -26,115 +27,119 @@
             </div>
         </nav>
     </header>
-    <div id="form-heading" class="all-headings">
-        <h2 class="headings-margin">Join the fun! <i class="fa-solid fa-computer"></i></h2>
-    </div>    
-    <section id="form-section"> <!-- main join-us page section including the form gathering the necesary information from the user to match them with the appropriate team -->
-        <div id="data-days-form" class="form-font-color">
-            <div id="data">
-                <form action="https://formdump.codeinstitute.net/" method="POST">
-                    <div>
-                        <label for="fname">First Name</label>
-                        <input class="text-input" id="fname" type="text" name="first_name" placeholder="Enter your First Name"
-                            required>
-                    </div>
-                    <div>
-                        <label for="lname">Last Name</label>
-                        <input class="text-input" id="lname" type="text" name="last_name" placeholder="Enter your Last Name"
-                            required>
-                    </div>
-                    <div>
-                        <label for="email">Email Address</label>
-                        <input class="text-input" id="email" type="email" name="email_address"
-                            placeholder="Enter your Email Address" required>
-                    </div>
-                </form>
-            </div>
-            <div id="days" class="checkbox-div form-font-color-small">
-                <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
-                    <p class="form-paragraph">Day(s) to Play</p>
-                    <div>
-                        <input type="checkbox" name="monday" id="monday-checkbox">
-                        <label for="monday-checkbox">Monday</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="tuesday" id="tuesday-checkbox">
-                        <label for="tuesday-checkbox">Tuesday</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="wednesday" id="wednesday-checkbox">
-                        <label for="wednesday-checkbox">Wednesday</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="thursday" id="thursday-checkbox">
-                        <label for="thursday-checkbox">Thursday</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="friday" id="friday-checkbox">
-                        <label for="friday-checkbox">Friday</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="saturday" id="saturday-checkbox">
-                        <label for="saturday-checkbox">Saturday</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="sunday" id="sunday-checkbox">
-                        <label for="sunday-checkbox">Sunday</label>
-                    </div>
-                </form>
-            </div>
+    <section>
+        <div id="form-heading" class="all-headings">
+            <h2 class="headings-margin">Join the fun! <i class="fa-solid fa-computer"></i></h2>
         </div>
-        <div id="game-time-form" class="form-font-color form-font-color-small">
-            <div id="game" class="checkbox-div">
-                <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
-                    <p class="form-paragraph">Games you like</p>
-                    <div>                
-                        <input type="checkbox" name="play-wow" id="play-wow-checkbox">
-                        <label for="wow">World of Warcraft</label>
-                    </div>
-                    <div>                
-                        <input type="checkbox" name="play-csgo" id="play-csgo-checkbox">
-                        <label for="play-csgo-checkbox">CS GO</label>
-                    </div>
-                    <div>                
-                        <input type="checkbox" name="play-lol" id="play-lol-checkbox">
-                        <label for="play-lol-checkbox">League of Legends</label>
-                    </div>
-                    <div>                
-                        <input type="checkbox" name="play-albion" id="play-albion-checkbox">
-                        <label for="play-albion-checkbox">Albion Online</label>
-                    </div>
-                </form>
-            </div>            
-            <div id="time" class="checkbox-div">
-                <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
-                    <p class="form-paragraph">Time(s) to Play</p>
-                    <div>                
-                        <input type="checkbox" name="quarter-one" id="quarter-one-checkbox">
-                        <label for="quarter-one-checkbox">00:00 - 06:00</label>
-                    </div>
-                    <div>                
-                        <input type="checkbox" name="quarter-two" id="quarter-two-checkbox">
-                        <label for="quarter-two-checkbox">06:00 - 12:00</label>
-                    </div>
-                    <div>                
-                        <input type="checkbox" name="quarter-three" id="quarter-three-checkbox">
-                        <label for="quarter-three-checkbox">12:00 - 18:00</label>
-                    </div>
-                    <div>                
-                        <input type="checkbox" name="quarter-four" id="quarter-four-checkbox">
-                        <label for="quarter-four-checkbox">18:00 - 24:00</label>
-                    </div>
-                </form>
-            </div>    
-        </div>
-        <div id="join">
-            <input type="submit" value="Join Us" class="action">
-            <br>
-            <input id="clear" type="reset" value="Clear Form" class="action">
+        <div id="form-section">
+            <!-- main join-us page section including the form gathering the necesary information from the user to match them with the appropriate team -->
+            <div id="data-days-form" class="form-font-color">
+                <div id="data">
+                    <form action="https://formdump.codeinstitute.net/" method="POST">
+                        <div>
+                            <label for="fname">First Name</label>
+                            <input class="text-input" id="fname" type="text" name="first_name"
+                                placeholder="Enter your First Name" required>
+                        </div>
+                        <div>
+                            <label for="lname">Last Name</label>
+                            <input class="text-input" id="lname" type="text" name="last_name"
+                                placeholder="Enter your Last Name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <input class="text-input" id="email" type="email" name="email_address"
+                                placeholder="Enter your Email Address" required>
+                        </div>
+                    </form>
+                </div>
+                <div id="days" class="checkbox-div form-font-color-small">
+                    <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                        <p class="form-paragraph">Day(s) to Play</p>
+                        <div>
+                            <input type="checkbox" name="monday" id="monday-checkbox">
+                            <label for="monday-checkbox">Monday</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="tuesday" id="tuesday-checkbox">
+                            <label for="tuesday-checkbox">Tuesday</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="wednesday" id="wednesday-checkbox">
+                            <label for="wednesday-checkbox">Wednesday</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="thursday" id="thursday-checkbox">
+                            <label for="thursday-checkbox">Thursday</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="friday" id="friday-checkbox">
+                            <label for="friday-checkbox">Friday</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="saturday" id="saturday-checkbox">
+                            <label for="saturday-checkbox">Saturday</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="sunday" id="sunday-checkbox">
+                            <label for="sunday-checkbox">Sunday</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="game-time-form" class="form-font-color form-font-color-small">
+                <div id="game" class="checkbox-div">
+                    <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                        <p class="form-paragraph">Games you like</p>
+                        <div>
+                            <input type="checkbox" name="play-wow" id="play-wow-checkbox">
+                            <label for="play-wow-checkbox">World of Warcraft</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="play-csgo" id="play-csgo-checkbox">
+                            <label for="play-csgo-checkbox">CS GO</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="play-lol" id="play-lol-checkbox">
+                            <label for="play-lol-checkbox">League of Legends</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="play-albion" id="play-albion-checkbox">
+                            <label for="play-albion-checkbox">Albion Online</label>
+                        </div>
+                    </form>
+                </div>
+                <div id="time" class="checkbox-div">
+                    <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                        <p class="form-paragraph">Time(s) to Play</p>
+                        <div>
+                            <input type="checkbox" name="quarter-one" id="quarter-one-checkbox">
+                            <label for="quarter-one-checkbox">00:00 - 06:00</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="quarter-two" id="quarter-two-checkbox">
+                            <label for="quarter-two-checkbox">06:00 - 12:00</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="quarter-three" id="quarter-three-checkbox">
+                            <label for="quarter-three-checkbox">12:00 - 18:00</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="quarter-four" id="quarter-four-checkbox">
+                            <label for="quarter-four-checkbox">18:00 - 24:00</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="join">
+                <input type="submit" value="Join Us" class="action">
+                <br>
+                <input id="clear" type="reset" value="Clear Form" class="action">
+            </div>
         </div>
     </section>
-    <footer> <!-- footer for all pages -->
+    <footer>
+        <!-- footer for all pages -->
         <h3 class="footer-style">
             Find us On:
         </h3>
@@ -159,6 +164,6 @@
         </ul>
     </footer>
     <!--font awesome script-->
-    <script src="https://kit.fontawesome.com/7162a9ebe5.js" crossorigin="anonymous"></script>   
-    
+    <script src="https://kit.fontawesome.com/7162a9ebe5.js" crossorigin="anonymous"></script>
+
 </body>
