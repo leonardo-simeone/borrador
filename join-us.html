@@ -9,6 +9,8 @@
     <meta name="keywords" content="online gaming, gaming club, mmo games, mmorpg, mmo shooter, world wide gaming">
     <title>Probando Grid</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    
+
 </head>
 
 <body>
@@ -28,14 +30,15 @@
         </nav>
     </header>
     <section>
-        <div id="form-heading" class="all-headings">
-            <h2 class="headings-margin">Join the fun! <i class="fa-solid fa-computer"></i></h2>
+        <div class="all-headings">
+            <h2 class="headings-size-margins">Join the fun! <i class="fa-solid fa-computer"></i></h2>
         </div>
+        <form action="thanks.html">
         <div id="form-section">
             <!-- main join-us page section including the form gathering the necesary information from the user to match them with the appropriate team -->
             <div id="data-days-form" class="form-font-color">
                 <div id="data">
-                    <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <div id="data-form">
                         <div>
                             <label for="fname">First Name</label>
                             <input class="text-input" id="fname" type="text" name="first_name"
@@ -51,10 +54,10 @@
                             <input class="text-input" id="email" type="email" name="email_address"
                                 placeholder="Enter your Email Address" required>
                         </div>
-                    </form>
+                    </div>
                 </div>
                 <div id="days" class="checkbox-div form-font-color-small">
-                    <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                    <div class="checkboxes">
                         <p class="form-paragraph">Day(s) to Play</p>
                         <div>
                             <input type="checkbox" name="monday" id="monday-checkbox">
@@ -84,12 +87,12 @@
                             <input type="checkbox" name="sunday" id="sunday-checkbox">
                             <label for="sunday-checkbox">Sunday</label>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
             <div id="game-time-form" class="form-font-color form-font-color-small">
                 <div id="game" class="checkbox-div">
-                    <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                    <div class="checkboxes">
                         <p class="form-paragraph">Games you like</p>
                         <div>
                             <input type="checkbox" name="play-wow" id="play-wow-checkbox">
@@ -107,10 +110,10 @@
                             <input type="checkbox" name="play-albion" id="play-albion-checkbox">
                             <label for="play-albion-checkbox">Albion Online</label>
                         </div>
-                    </form>
+                    </div>
                 </div>
                 <div id="time" class="checkbox-div">
-                    <form action="https://formdump.codeinstitute.net/" method="POST" class="checkboxes">
+                    <div class="checkboxes">
                         <p class="form-paragraph">Time(s) to Play</p>
                         <div>
                             <input type="checkbox" name="quarter-one" id="quarter-one-checkbox">
@@ -128,7 +131,7 @@
                             <input type="checkbox" name="quarter-four" id="quarter-four-checkbox">
                             <label for="quarter-four-checkbox">18:00 - 24:00</label>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
             <div id="join">
@@ -137,6 +140,7 @@
                 <input id="clear" type="reset" value="Clear Form" class="action">
             </div>
         </div>
+    </form>
     </section>
     <footer>
         <!-- footer for all pages -->
@@ -165,5 +169,17 @@
     </footer>
     <!--font awesome script-->
     <script src="https://kit.fontawesome.com/7162a9ebe5.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("form").submit(function(){
+                if ($('#days .checkboxes div input:checkbox').filter(':checked').length < 1 || $('#game .checkboxes div input:checkbox').filter(':checked').length < 1 || $('#time .checkboxes div input:checkbox').filter(':checked').length < 1){
+                alert("Check at least one box on each section!");
+                return false;
+                }
+            });
+        });
+        </script>
 
 </body>
+</html>
