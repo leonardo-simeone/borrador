@@ -202,11 +202,13 @@ footer a {
     display: inline;
 }
 
-#form-heading h2, #time-heading h2, #about-heading h2 { /* about-us, timetable and join-us pages headings styling */
+.headings-size-margins { /* about-us, timetable and join-us pages headings styling */
     font-size: 220%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#about-intro p {
+#about p {
     text-align: justify;
     font-size: 100%;
     padding: 30px;
@@ -370,7 +372,7 @@ footer a {
     flex: 1;    
 }
 
-#data form {
+#data-form {
     width: 40%;
     height: 80%;
     margin: 0;
@@ -450,7 +452,7 @@ footer a {
             margin: 0 auto;
         }        
 
-        #about-intro p {
+        #about p {
             text-align: justify;
             font-size: 100%;
             padding: 30px;
@@ -465,7 +467,7 @@ footer a {
             font-size: 150%;
         }
 
-        #data form {
+        #data-form {
             width: 30%;            
         }
         
@@ -513,14 +515,14 @@ footer a {
             font-size: 120%;
         }        
 
-        #about-intro p {
+        #about p {
             text-align: justify;
             font-size: 90%;
             padding: 30px;
             line-height: 45px;
         }
 
-        #form-heading h2, #time-heading h2, #about-heading h2 {            
+        .headings-size-margins {            
             font-size: 200%;            
         }
 
@@ -533,7 +535,7 @@ footer a {
             font-size: 140%;
         }
 
-        #data form {
+        #data-form {
             width: 50%;            
         }
     }
@@ -570,14 +572,14 @@ footer a {
             font-size: 130%;
         }
         
-        #about-intro p {
+        #about p {
             text-align: justify;
             font-size: 85%;
             padding: 25px;
             line-height: 38px;
         }
 
-        #form-heading h2, #time-heading h2, #about-heading h2 {            
+        .headings-size-margins {            
             font-size: 180%;            
         }
 
@@ -589,7 +591,7 @@ footer a {
             font-size: 120%;
         }
 
-        #data form {
+        #data-form {
             width: 60%;            
         }
     }
@@ -686,23 +688,23 @@ footer a {
             font-size: 140%;
         }
 
-        .page-heading {
+        /* .page-heading {
             font-size: 140%;
-        } 
+        }  */
 
         footer ul li {            
             margin: 30px;
             font-size: 150%;
         }        
         
-        #about-intro p {
+        #about p {
             text-align: center;
             font-size: 70%;
             padding: 25px;
             line-height: 38px;
         }
 
-        #form-heading h2, #time-heading h2, #about-heading h2 {            
+        .headings-size-margins {            
             font-size: 150%;            
         }
 
@@ -731,7 +733,7 @@ footer a {
             margin-right: 0;
         }
 
-        #data form {
+        #data-form {
             width: 72%;            
         }
 
@@ -784,14 +786,14 @@ footer a {
             font-size: 130%;
         }        
 
-        #about-intro p {
+        #about p {
             text-align: center;
             font-size: 55%;
             padding: 15px;
             line-height: 30px;
         }
 
-        #form-heading h2, #time-heading h2, #about-heading h2 {            
+        .headings-size-margins {            
             font-size: 120%;            
         }
 
@@ -826,7 +828,7 @@ footer a {
            width: 90%; 
         }
 
-        #data form {
+        #data-form {
             width: 100%;
             height: 80%;
             margin: 0;
