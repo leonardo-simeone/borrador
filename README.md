@@ -100,9 +100,54 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 <p>&nbsp;</p>
 
+## Testing
+
+* The first thing I manually tested numerous times was responsiveness, that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets.
+* I also tested effectiveness and efficiency in the links available in the website site, I made sure that all links work as intended and that the user can navigate and find information in the site easily.
+* I tested compatibility and functionality across different browsers. I used Chrome, Edge and Firefox, and in every single one of them the website works and responds well.
+* I made sure that in the case that the user fails to input necessary information in the form, a relevant message shows indicating what the missing information is.
+* Once the site was deployed, I also asked friends and family to check it out and navigate through it, including filling out the form as they wished. This way I could put it to the test from a third party standpoint.
+
+## Bugs
+
+* The first issue that I solved was a warning from W3C html checker, indicating that a section did not have a heading. I had placed the heading outside of the section, to solve this I included the heading inside of the section.
+<p>&nbsp;</p>
+
+![W3C Warning](/assets/images/readme-images/html-checker-warning.jpg)
+
+<p>&nbsp;</p>
+
+* The second issue I found while testing with the lighthouse tool was that the performance indicator was too low.
+<p>&nbsp;</p>
+
+![Low Performance Metrics](/assets/images/readme-images/lighthouse-test-one-done.jpg)
+
+<!-- <p>&nbsp;</p> -->
+When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-contentful-paint-lcp-on-your-website-with-ease/) the posible reason behind this occurence, I found out that the images I used were too heavy. I decided to compress the jpg files into smaller jpg files using [tinypng.com](https://tinypng.com/) and then I converted the smaller jpg images into webp files using [cloudconvert.com](https://cloudconvert.com/) which in turn made them even smaller without losing display quality. The performance indicator improved significantly.
+<!-- <p>&nbsp;</p> -->
+
+![Better Performance Metrics](/assets/images/readme-images/lighthouse-test-two-done.jpg)
+
+* The third issue I encountered was making the iframe responsive. I reasearched about "how to make a video iframe responsive" and I found in [css-tricks.com](https://css-tricks.com/fluid-width-video/) a snippet of code which I copied and adapted to my needs to resolve the issue.
+<p>&nbsp;</p>
+
+![Responsive iframe](/assets/images/readme-images/video-iframe-aspect-ratio.JPG)
+
+* The fourth and last issue to resolve, was the need to alert the user that at least one checkbox for each group has to be checked for the form to be submitted. I researched and realized that by using html and css only, this task was not achievable. The use of a jQuery was necessary, so I found [this block of code](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I copied and adapted to each one of the checkboxes groups in the form.
+<p>&nbsp;</p>
+
+![jQuery](/assets/images/readme-images/jquery.JPG)
+
+## HTML, CSS and Accessibility Validators
+
+* I used W3C Markup Validation Service on all the html files and no errors were found.
+* I ran the css file through the W3C Jigsaw validator and no issues were found.
+![Validators](/assets/images/readme-images/validators.png)
+* I used the lighthouse tool in devtools to test color contrast and accesability and it was marked 100%
+
 ## Wireframing
 
-To wireframe my project I used [whimsical](https://whimsical.com/wireframes).
+To wireframe the website I used [whimsical](https://whimsical.com/wireframes).
 <p>&nbsp;</p>
 
 ![Wireframe](/assets/images/readme-images/whimsical-muck-up.JPG)
