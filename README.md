@@ -102,9 +102,10 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ## Testing
 
-* The first thing I manually tested numerous times was responsiveness, that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets.
+* The first thing I manually tested numerous times was responsiveness utilizing chrome as the main browser, that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets.
 * I also tested effectiveness and efficiency in the links available in the website site, I made sure that all links work as intended and that the user can navigate and find information in the site easily.
 * I tested compatibility and functionality across different browsers. I used Chrome, Edge and Firefox, and in every single one of them the website works and responds well.
+![Edge Firefox Test](/assets/images/readme-images/edge-firefox.png)
 * I made sure that in the case that the user fails to input necessary information in the form, a relevant message shows indicating what the missing information is.
 * Once the site was deployed, I also asked friends and family to check it out and navigate through it, including filling out the form as they wished. This way I could put it to the test from a third party standpoint.
 
@@ -129,7 +130,7 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 ![Better Performance Metrics](/assets/images/readme-images/images-compression-test.png)
 
 * The third issue I encountered was making the iframe responsive. I reasearched about "how to make a video iframe responsive" and I found in [css-tricks.com](https://css-tricks.com/fluid-width-video/) a snippet of code which I copied and adapted to my needs to resolve the issue.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Responsive iframe](/assets/images/readme-images/video-iframe-aspect-ratio.JPG)
 
