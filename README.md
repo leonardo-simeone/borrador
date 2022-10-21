@@ -153,8 +153,7 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
     * In the Pages tab select "Deploy from a branch" in the drop down menu from "Source".
     * Right under the Source dropdown menu there is the "Branch" menu, from it select "Main" and "/(root)".
     * Click on save and refresh the page after a few minutes to give GitHub time to process the deployment.
-    * At the top you will see the generated link to "Visit site" already deployed.
-    <p>&nbsp;</p>
+    * At the top you will see the generated link to "Visit site" already deployed.<p>&nbsp;</p>    
 
     ![Deplyment](/assets/images/readme-images/deployment.png)
     * The link to visit the deployed website: [Online Gaming Club](https://leonardo-simeone.github.io/online-gaming-club/index.html)
