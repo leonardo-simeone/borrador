@@ -143,7 +143,7 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 * I used the official W3C Markup Validation Service on all the html files and no errors were found.
 * I ran the css file through the official W3C Jigsaw validator and no issues were found.
 ![Validators](/assets/images/readme-images/jigsaw-css-checker-pass.png)
-* I used the lighthouse tool in devtools to test color contrast and accesability and it was marked 100%.
+* I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%.
 
 ## Deployment
 
@@ -154,6 +154,9 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
     * Right under the Source dropdown menu there is the "Branch" menu, from it select "Main" and "/(root)".
     * Click on save and refresh the page after a few minutes to give GitHub time to process the deployment.
     * At the top you will see the generated link to "Visit site" already deployed.
+    <p>&nbsp;</p>
+
+    ![Deplyment](/assets/images/readme-images/deployment.png)
     * The link to visit the deployed website: [Online Gaming Club](https://leonardo-simeone.github.io/online-gaming-club/index.html)
 
 
