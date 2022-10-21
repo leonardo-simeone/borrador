@@ -126,7 +126,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-contentful-paint-lcp-on-your-website-with-ease/) the posible reason behind this occurence, I found out that the images I used were too heavy. I decided to compress the jpg files into smaller jpg files using [tinypng.com](https://tinypng.com/) and then I converted the smaller jpg images into webp files using [cloudconvert.com](https://cloudconvert.com/) which in turn made them even smaller without losing display quality. The performance indicator improved significantly.
 <!-- <p>&nbsp;</p> -->
 
-![Better Performance Metrics](/assets/images/readme-images/lighthouse-test-two-done.jpg)
+![Better Performance Metrics](/assets/images/readme-images/images-compression-test.png)
 
 * The third issue I encountered was making the iframe responsive. I reasearched about "how to make a video iframe responsive" and I found in [css-tricks.com](https://css-tricks.com/fluid-width-video/) a snippet of code which I copied and adapted to my needs to resolve the issue.
 <p>&nbsp;</p>
