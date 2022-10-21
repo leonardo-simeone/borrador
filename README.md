@@ -138,12 +138,24 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 
 ![jQuery](/assets/images/readme-images/jquery.JPG)
 
-## HTML, CSS and Accessibility Validators
+## HTML, CSS and Accessibility Validators Testing
 
 * I used W3C Markup Validation Service on all the html files and no errors were found.
 * I ran the css file through the W3C Jigsaw validator and no issues were found.
-![Validators](/assets/images/readme-images/validators.png)
+![Validators](/assets/images/readme-images/jigsaw-css-checker-pass.png)
 * I used the lighthouse tool in devtools to test color contrast and accesability and it was marked 100%
+
+## Deployment
+
+* I deployed the website using GitHub pages. The steps to do so were the following:
+    * In the GitHub repository project menu, click on the cog wheel marked as Settings.
+    * Once in settings, on the left hand side of the screen click on the Pages tab.
+    * In the Pages tab select "Deploy from a branch" in the drop down menu from "Source".
+    * Right under the Source dropdown menu there is the "Branch" menu, from it select "Main" and "/(root)".
+    * Click on save and refresh the page after a few minutes to give GitHub time to process the deployment.
+    * At the top you will see the generated link to "Visit site" already deployed.
+    * The link to visit the deployed website: [Online Gaming Club](https://leonardo-simeone.github.io/online-gaming-club/index.html)
+
 
 ## Wireframing
 
