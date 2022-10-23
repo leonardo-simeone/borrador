@@ -102,7 +102,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ## Testing
 
-* The first thing I manually tested numerous times was responsiveness utilizing chrome as the main browser, that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets.
+* The first thing I manually tested numerous times was responsiveness utilizing chrome as the main browser, that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets and the [Am I Responsive](https://ui.dev/amiresponsive?url=https://leonardo-simeone.github.io/online-gaming-club/index.html) website was used as well to test responsiveness.
 * I also tested effectiveness and efficiency in the links available in the website site, I made sure that all links work as intended and that the user can navigate and find information in the site easily.
 * I tested compatibility and functionality across different browsers. I used Chrome, Edge and Firefox, and in every single one of them the website works and responds well.
 ![Edge Firefox Test](/assets/images/readme-images/edge-firefox.png)
@@ -217,6 +217,6 @@ __Media__
 
 * Firstly I want to thank my mentor Tim, his support has been fundamental in the overall conclusion of this project. He made the right suggestions and put me on the right track to achieve the end result, I can only give him a 10 out of 10.
 * I want to thank my cohort facilitator Kasia, her dedication and support have been amazing from the start.
-* I want thank last but not least, Code Institute for providing me with easy to understand knowledge which allowed me achieve this first milestone.
+* I want to thank last but not least, Code Institute for providing me with easy to understand knowledge which allowed me achieve this first milestone.
 
 
