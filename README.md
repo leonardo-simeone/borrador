@@ -195,5 +195,13 @@ To wireframe the website I used [whimsical](https://whimsical.com/wireframes).
 
     ![Colors](/assets/images/readme-images/color-selection.png)
 
+## Credits
+
+__Content__
+
+* The knowledge applied in the use of flexbox, I learned from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). By using flexbox I was able to position elements in my layout a lot easier than with float.
+* The original code to make the video iframe responsive, I took from [css-tricks.com](https://css-tricks.com/fluid-width-video/) which I modified later to meet my needs.
+* The original code to make at least one checkbox in each group required, I took from [allphptricks.com](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I also modified to meet my needs.
+* The inspiration for the First Name, Last Name and Email inputs of the form, as well as the overlay on the hero image, I took from the [Love Running](https://leonardo-simeone.github.io/love-running/singup.html) project. 
 
 
