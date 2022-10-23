@@ -17,68 +17,68 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
     * The navigation bar was designed to make it easy to read and with a combination of colors that are easy to the eye and create good contrast.
     * All links in the navigation menu have visual cues regarding where the user currently is on the site, as well as which links are they about to click on, making it easier to navigate.
     * The navegation menu is identical across all the pages on the site which provides quick navigation learning.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Nav Bar](/assets/images/readme-images/nav-bar.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * __The Home Page Hero Image__
 
     * The hero image was carefully selected to create a sense of enjoyment related to video gaming and at the same time to try and pass a message to the first time user: "we are waiting for you, join in!"
     * Hovering on top of the hero image is an overlay which provides a brief concept as to what the ONLINE GAMING CLUB is about.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Hero Img](/assets/images/readme-images/hero-image-section.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * __Welcome Section__
 
     * In the welcome section, the user is officially introduced to the site with with a compact summary of the site's main purpose and benefits.
     * This section is accompanied by an image that transmits a happy and enjoyable environment for video gamers.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Welcome](/assets/images/readme-images/welcome-section.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * __Games We Play Section__
 
     * In the games we play section, the user can see right off the bat, which games are currently being played in the club.
     * This section also offers a brief description of each game as well as an image relevant to the game, mainly their logo.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Games](/assets/images/readme-images/games-we-play.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * __Footer__
 
     * The footer comprises a simple paragraph with a call to action and an unordered list with all the social media links for the site.
     * The footer the same as the navegation bar is the same across all pages on the site to allow for easy navigation and simetry across the website.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
     
 ![Footer](/assets/images/readme-images/footer-section.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * __About Us__
 
     * In the About Us page, a more comprehensive explanation of the ONLINE GAMING CLUB is delivered in a compact paragraph, letting the user know what the club will do to make their gaming experience more enjoyable and team fun oriented and also where in the site and how to join the club.
     * Also in this section an iframe was including featuring a team up fighting arena in World of Warcraft, by including this iframe, the user has the option to see what they could avail of should they decide to join.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![About Us](/assets/images/readme-images/about-us-section.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * __TimeTable__
 
     * The TimeTable page was designed to inform the user what servers and time frames are the games in the club played in.
     * This timetable indicates the user in detail how, the games, days, times and servers are structured in the gaming groups already formed.
     * It also informs the user that all times are based on IST (irish standard time).
-    <p>&nbsp;</p>
+    <!-- <p>&nbsp;</p> -->
 
 ![TimeTable](/assets/images/readme-images/timetable-section.JPG)
 
@@ -86,7 +86,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ![TimeTable IST](/assets/images/readme-images/timetable-ist.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * __Join Us__
 
@@ -98,7 +98,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ![Join Us](/assets/images/readme-images/join-us-section.JPG)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ## Testing
 
@@ -112,14 +112,14 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 ## Bugs
 
 * The first issue that I solved was a warning from W3C html checker, indicating that a section did not have a heading. I had placed the heading outside of the section, to solve this I included the heading inside of the section.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![W3C Warning](/assets/images/readme-images/html-checker-warning.jpg)
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 * The second issue I found while testing with the lighthouse tool was that the performance indicator was too low.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Low Performance Metrics](/assets/images/readme-images/lighthouse-test-one-done.jpg)
 
@@ -135,15 +135,13 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 ![Responsive iframe](/assets/images/readme-images/video-iframe-aspect-ratio.JPG)
 
 * The fourth and last issue to resolve, was the need to alert the user that at least one checkbox for each group has to be checked for the form to be submitted. I researched and realized that by using html and css only, this task was not achievable. The use of a jQuery was necessary, so I found [this block of code](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I copied and adapted to each one of the checkboxes groups in the form.
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![jQuery](/assets/images/readme-images/jquery.JPG)
 
 ## HTML, CSS and Accessibility Validators Testing
 
 * I used the official W3C Markup Validation Service on all the html files and no errors were found.
-<p>&nbsp;</p>
-
 ![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg)
 * I ran the css file through the official W3C Jigsaw validator and no issues were found.<p>&nbsp;</p>
 ![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
@@ -166,7 +164,7 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 ## Wireframing
 
 To wireframe the website I used [whimsical](https://whimsical.com/wireframes).
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Wireframe](/assets/images/readme-images/whimsical-muck-up.JPG)
 
@@ -175,7 +173,7 @@ To wireframe the website I used [whimsical](https://whimsical.com/wireframes).
 
     * Since the google fonts page feature for fonts pairing suggestions was discontinued, I used an alternative tool available to select the fonts for the site.
     * I browsed [heyreliable](https://heyreliable.com/ultimate-google-font-pairings/) google fonts pairings available in their collection and selected number 31 based on the look and mood wanted for the website.
-    <p>&nbsp;</p>
+    <!-- <p>&nbsp;</p> -->
 
     ![Fonts](/assets/images/readme-images/font-selection.JPG)
 
