@@ -143,7 +143,7 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 
 * I used the official W3C Markup Validation Service on all the html files and no errors were found.
 ![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg)
-* I ran the css file through the official W3C Jigsaw validator and no issues were found.<p>&nbsp;</p>
+* I ran the css file through the official W3C Jigsaw validator and no issues were found.
 ![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
 * I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%.
 
