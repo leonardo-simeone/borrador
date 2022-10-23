@@ -4,7 +4,7 @@ Online Gaming Club is a website that seeks to provide a service based on the nee
 
 Online Gaming Club offers a selection of different MMO video games to choose from, as well as a variety of servers and times from which users can pick and choose according to their own individual needs. Also the user can find a showcase of images and video that motivate online video gamers to join the club. Once a user has selected their preferences then and fully filled out the form provided then they will be assigned to a gaming team accordingly.
 
-<p>&nbsp;</p>
+<!-- <p>&nbsp;</p> -->
 
 ![Responsive Mockup](/assets/images/readme-images/am-i-responsive.JPG)
 
@@ -139,10 +139,18 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 
 ![jQuery](/assets/images/readme-images/jquery.JPG)
 
+## Form Data Verification
+
+* In order to make the website more user friendly, I created a thanks page to which the user is brought to once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
+* Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thansk page implementation the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
+<p>&nbsp;</p>
+
+![Form Test](/assets/images/readme-images/form-data-sent-correctly.JPG)
+
 ## HTML, CSS and Accessibility Validators Testing
 
 * I used the official W3C Markup Validation Service on all the html files and no errors were found.
-![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg)
+![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg) <p>&nbsp;</p>
 * I ran the css file through the official W3C Jigsaw validator and no issues were found.
 ![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
 * I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%.
