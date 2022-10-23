@@ -119,9 +119,9 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ## HTML, CSS and Accessibility Validators Testing
 
-* I used the official W3C Markup Validation Service on all the html files and no errors were found.
+* I used the [official W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) on all the html files and no errors were found.
 ![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg) <p>&nbsp;</p>
-* I ran the css file through the official W3C Jigsaw validator and no issues were found.
+* I ran the css file through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no issues were found.
 ![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
 * I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%. <p>&nbsp;</p>
 ![Lighthouse Test](/assets/images/readme-images/lighthouse-test.jpg)
@@ -172,7 +172,7 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 
 ## Wireframing
 
-To wireframe the website I used [whimsical](https://whimsical.com/wireframes).
+To wireframe the website I used [Whimsical](https://whimsical.com/wireframes).
 <!-- <p>&nbsp;</p> -->
 
 ![Wireframe](/assets/images/readme-images/whimsical-muck-up.JPG)
@@ -202,6 +202,21 @@ __Content__
 * The knowledge applied in the use of flexbox, I learned from [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox). By using flexbox I was able to position elements in my layout a lot easier than with float.
 * The original code to make the video iframe responsive, I took from [css-tricks.com](https://css-tricks.com/fluid-width-video/) which I modified later to meet my needs.
 * The original code to make at least one checkbox in each group required, I took from [allphptricks.com](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I also modified to meet my needs.
+* The icons I used in the footer and the headings, I took from [Fontawesome](https://fontawesome.com/search?q=game&o=r&m=free)
 * The inspiration for the First Name, Last Name and Email inputs of the form, as well as the overlay on the hero image, I took from the [Love Running](https://leonardo-simeone.github.io/love-running/singup.html) project. 
+
+__Media__
+
+* To wireframe the project, I used [Whimsical](https://whimsical.com/wireframes).
+* To choose fonts pairing, I used [Heyreliable](https://heyreliable.com/ultimate-google-font-pairings/)
+* To choose the colors for the site, I used [ColorSpace](https://mycolor.space/?hex=%23222219&sub=1)
+* The images I used across the site, I took from [Pexels.com](https://www.pexels.com/search/pc%20gaming/) and from [Wallpaperaccess.com](https://wallpaperaccess.com/world-of-warcraft-logo).
+* The iframe video, I took from the [GamesGround](https://www.youtube.com/channel/UCHKOktRMLNdhRSqL_DWwgKA) YouTube channel which I own.
+
+## Thanks
+
+* Firstly I want to thank my mentor Tim, his support has been fundamental in the overall conclusion of this project. He made the right suggestions and put me on the right track to achieve the end result, I can only give him a 10 out of 10.
+* I want to thank my cohort facilitator Kasia, her dedication and support have been amazing from the start.
+* I want thank last but not least, Code Institute for providing me with easy to understand knowledge which allowed me achieve this first milestone.
 
 
