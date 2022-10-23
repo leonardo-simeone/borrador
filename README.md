@@ -142,8 +142,11 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 ## HTML, CSS and Accessibility Validators Testing
 
 * I used the official W3C Markup Validation Service on all the html files and no errors were found.
-* I ran the css file through the official W3C Jigsaw validator and no issues were found.
-![Validators](/assets/images/readme-images/jigsaw-css-checker-pass.png)
+<p>&nbsp;</p>
+
+![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg)
+* I ran the css file through the official W3C Jigsaw validator and no issues were found.<p>&nbsp;</p>
+![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
 * I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%.
 
 ## Deployment
