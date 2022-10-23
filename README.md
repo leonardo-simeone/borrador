@@ -123,7 +123,8 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 ![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg) <p>&nbsp;</p>
 * I ran the css file through the official W3C Jigsaw validator and no issues were found.
 ![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
-* I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%.
+* I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%. <p>&nbsp;</p>
+![Lighthouse Test](/assets/images/readme-images/lighthouse-test.jpg)
 
 ## Bugs
 
