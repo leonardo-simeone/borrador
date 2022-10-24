@@ -199,7 +199,12 @@ footer a {
     text-align: center;
     font-size: 200%;
     margin: 0 auto;
-    display: inline;
+    display: inline;    
+}
+
+#about a {
+    text-decoration: none;
+    color: #222219;
 }
 
 .headings-size-margins { /* about-us, timetable and join-us pages headings styling */
