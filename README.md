@@ -214,11 +214,3 @@ __Media__
 * To choose the colors for the site, I used [ColorSpace](https://mycolor.space/?hex=%23222219&sub=1)
 * The images I used across the site, I took from [Pexels.com](https://www.pexels.com/search/pc%20gaming/) and from [Wallpaperaccess.com](https://wallpaperaccess.com/world-of-warcraft-logo).
 * The iframe video, I took from the [GamesGround](https://www.youtube.com/channel/UCHKOktRMLNdhRSqL_DWwgKA) YouTube channel which I own.
-
-## Thanks
-
-* Firstly I want to thank my mentor Tim, his support has been fundamental in the overall conclusion of this project. He made the right suggestions and put me on the right track to achieve the end result, I can only give him a 10 out of 10.
-* I want to thank my cohort facilitator Kasia, her dedication and support have been amazing from the start.
-* I want to thank last but not least, Code Institute for providing me with easy to understand knowledge which allowed me achieve this first milestone.
-
-
