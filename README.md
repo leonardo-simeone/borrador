@@ -8,6 +8,32 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ![Responsive Mockup](/assets/images/readme-images/am-i-responsive.JPG)
 
+## UX
+
+### Wireframing
+
+To wireframe the website I used [Whimsical](https://whimsical.com/wireframes).
+
+![Wireframe](/assets/images/readme-images/whimsical-muck-up.JPG)
+
+### Fonts and Colors Selection
+
+* __Fonts.__
+
+    * Since the google fonts page feature for fonts pairing suggestions was discontinued, I used an alternative tool available to select the fonts for the site.
+    * I browsed [heyreliable](https://heyreliable.com/ultimate-google-font-pairings/) google fonts pairings available in their collection and selected number 31 based on the look and mood wanted for the website.
+
+    ![Fonts](/assets/images/readme-images/font-selection.JPG)
+
+    * These two fonts are clear to read and also have a friendly yet professional style which is compatible with a website related to video gaming.
+
+* __Colors.__
+
+    * To select the colors, I used the [ColorSpace](https://mycolor.space/) website which provides the option to input any color you want and then it will provide a selection of matching/compatible colors that relate well to that "base" color you selected in the first place.
+    * Once I had my base color selected which is [#222219](https://mycolor.space/?hex=%23222219&sub=1), I used ColorSpace and it gave me a wide variety of compatible colors to work with from which I chose several of them and referenced them accordingly in the css style sheet.    
+
+    ![Colors](/assets/images/readme-images/color-selection.png)
+
 ## Features
 
 * __Navigation Bar__
@@ -173,31 +199,15 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
     ![Deplyment](/assets/images/readme-images/deployment.png)
     * The link to visit the deployed website: [Online Gaming Club](https://leonardo-simeone.github.io/online-gaming-club/index.html)
 
+### Local Deployment
 
-## Wireframing
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-To wireframe the website I used [Whimsical](https://whimsical.com/wireframes).
-<!-- <p>&nbsp;</p> -->
+- `git clone https://github.com/leonardo-simeone/online-gaming-club.git`
 
-![Wireframe](/assets/images/readme-images/whimsical-muck-up.JPG)
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-## Fonts and Colors Selection
-* __Fonts.__
-
-    * Since the google fonts page feature for fonts pairing suggestions was discontinued, I used an alternative tool available to select the fonts for the site.
-    * I browsed [heyreliable](https://heyreliable.com/ultimate-google-font-pairings/) google fonts pairings available in their collection and selected number 31 based on the look and mood wanted for the website.
-    <!-- <p>&nbsp;</p> -->
-
-    ![Fonts](/assets/images/readme-images/font-selection.JPG)
-
-    * These two fonts are clear to read and also have a friendly yet professional style which is compatible with a website related to video gaming.
-
-* __Colors.__
-
-    * To select the colors, I used the [ColorSpace](https://mycolor.space/) website which provides the option to input any color you want and then it will provide a selection of matching/compatible colors that relate well to that "base" color you selected in the first place.
-    * Once I had my base color selected which is [#222219](https://mycolor.space/?hex=%23222219&sub=1), I used ColorSpace and it gave me a wide variety of compatible colors to work with from which I chose several of them and referenced them accordingly in the css style sheet.    
-
-    ![Colors](/assets/images/readme-images/color-selection.png)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/leonardo-simeone/online-gaming-club)
 
 ## Credits
 
