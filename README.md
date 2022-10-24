@@ -111,24 +111,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 * I made sure that in the case that the user fails to input necessary information in the form, a relevant message shows indicating what the missing information is.
 * Once the site was deployed, I also asked friends and family to check it out and navigate through it, including filling out the form as they wished. This way I could put it to the test from a third party standpoint.
 
-## Form Data Verification
-
-* In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
-* Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thanks page implementation, the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
-<p>&nbsp;</p>
-
-![Form Test](/assets/images/readme-images/form-data-sent-correctly.JPG)
-
-## HTML, CSS and Accessibility Validators Testing
-
-* I used the [official W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) on all the html files and no errors were found.
-![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg) <p>&nbsp;</p>
-* I ran the css file through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no issues were found.
-![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
-* I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%. <p>&nbsp;</p>
-![Lighthouse Test](/assets/images/readme-images/lighthouse-test.jpg)
-
-## Bugs
+### Bugs
 
 * The first issue that I solved was a warning from W3C html checker, indicating that a section did not have a heading. I had placed the heading outside of the section, to solve this I included the heading inside of the section.
 <!-- <p>&nbsp;</p> -->
@@ -153,10 +136,29 @@ When I researched in [css-tricks.com](https://css-tricks.com/improve-largest-con
 
 ![Responsive iframe](/assets/images/readme-images/video-iframe-aspect-ratio.JPG)
 
-* The fourth and last issue to resolve, was the need to alert the user that at least one checkbox for each group has to be checked for the form to be submitted. I researched and realized that by using html and css only, this task was not achievable. The use of a jQuery was necessary, so I found [this block of code](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I copied and adapted to each one of the checkboxes groups in the form.
+* The fourth issue to resolve, was the need to alert the user that at least one checkbox for each group has to be checked for the form to be submitted. I researched and realized that by using html and css only, this task was not achievable. The use of a jQuery was necessary, so I found [this block of code](https://www.allphptricks.com/submit-form-atleast-one-checkbox-checked/) which I copied and adapted to each one of the checkboxes groups in the form.
 <!-- <p>&nbsp;</p> -->
 
 ![jQuery](/assets/images/readme-images/jquery.JPG)
+
+* The fifth and last issue I fixed, was the fact that the form submit and reset inputs were not working. I realized after looking for information on Slack, that I had put the three groups of checkboxes plus the First Name, Last Name and Email group in four different form elements. To resolve this issue I changed the form elements for divs and enclosed all groups in the one form.
+
+### Form Data Verification
+
+* In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
+* Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thanks page implementation, the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
+<p>&nbsp;</p>
+
+![Form Test](/assets/images/readme-images/form-data-sent-correctly.JPG)
+
+### HTML, CSS and Accessibility Validators Testing
+
+* I used the [official W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) on all the html files and no errors were found.
+![HTML Validator](/assets/images/readme-images/w3org-html-checker-pass.jpg) <p>&nbsp;</p>
+* I ran the css file through the [official W3C Jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and no issues were found.
+![CSS Validator](/assets/images/readme-images/jigsaw-css-checker-pass.jpg)
+* I used the lighthouse tool in devtools to test color contrast and accesibility and it was marked 100%. <p>&nbsp;</p>
+![Lighthouse Test](/assets/images/readme-images/lighthouse-test.jpg)
 
 ## Deployment
 
