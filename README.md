@@ -1,8 +1,8 @@
 # ONLINE GAMING CLUB
 
-Online Gaming Club is a website that seeks to provide a service based on the needs and wants of online video gamers around the world, that would like to join a community where they can enjoy comradery while playing MMO video games they like and in the regions and times that suit them. Gamers quite often find themselves strugling to coordinate times with their own gaming partners, such as their own friends and family given that life gets in the way, whether it's work, school or extra curricular activities, more often than not one or several things happen to be keeping players from virtually gathering in groups and game away.
+Online Gaming Club is a website that seeks to provide a service based on the needs and wants of online video gamers around the world, that would like to join a community where they can enjoy comradery while playing MMO video games they like and in the regions and times that suit them. Gamers quite often find themselves strugling to coordinate times with their own gaming partners, such as their own friends and family given that life gets in the way, whether it's work, school or extra curricular activities, more often than not, one or several things happen to be keeping players from virtually gathering in groups and game away.
 
-Online Gaming Club offers a selection of different MMO video games to choose from, as well as a variety of servers and times from which users can pick and choose according to their own individual needs. Also the user can find a showcase of images and video that motivate online video gamers to join the club. Once a user has selected their preferences then and fully filled out the form provided then they will be assigned to a gaming team accordingly.
+Online Gaming Club offers a selection of different MMO video games to choose from, as well as a variety of servers and times from which users can pick and choose according to their own individual needs. Also the user can find a showcase of images and video that motivate online video gamers to join the club. Once a user has selected their preferences and fully filled out the form provided then they will be assigned to a gaming team accordingly.
 
 <!-- <p>&nbsp;</p> -->
 
@@ -23,7 +23,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 <!-- <p>&nbsp;</p> -->
 
-* __The Home Page Hero Image__
+* __Home Page Hero Image__
 
     * The hero image was carefully selected to create a sense of enjoyment related to video gaming and at the same time to try and pass a message to the first time user: "we are waiting for you, join in!"
     * Hovering on top of the hero image is an overlay which provides a brief concept as to what the ONLINE GAMING CLUB is about.
@@ -35,7 +35,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 * __Welcome Section__
 
-    * In the welcome section, the user is officially introduced to the site with with a compact summary of the site's main purpose and benefits.
+    * In the welcome section, the user is officially introduced to the site with a compact summary of the site's main purpose and benefits.
     * This section is accompanied by an image that transmits a happy and enjoyable environment for video gamers.
 <!-- <p>&nbsp;</p> -->
 
@@ -65,8 +65,10 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 * __About Us__
 
-    * In the About Us page, a more comprehensive explanation of the ONLINE GAMING CLUB is delivered in a compact paragraph, letting the user know what the club will do to make their gaming experience more enjoyable and team fun oriented and also where in the site and how to join the club.
-    * Also in this section an iframe was including featuring a team up fighting arena in World of Warcraft, by including this iframe, the user has the option to see what they could avail of should they decide to join.
+    * In the About Us page, a more comprehensive explanation of the ONLINE GAMING CLUB is delivered in a compact paragraph, letting the user know what the club offers
+ to make their gaming experience more enjoyable and team fun oriented and also where in the site they can join the club and how to do it.
+    * Also in this section, an iframe was included featuring a team up fighting arena in World of Warcraft, by including this iframe, the user has the option to see
+ what they could avail of should they decide to join.
 <!-- <p>&nbsp;</p> -->
 
 ![About Us](/assets/images/readme-images/about-us-section.JPG)
@@ -93,7 +95,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
     * In the Join Us page, the user will find a form that they can fill out to join the club.
     * The form contains sub-sections which cover the user's full name, email address, which days and times the user is available to play as well as which games and servers the user prefers to play in.
     * The form was designed to be inviting and an image refering to video gaming technology was used as the form background to complement this approach.
-    * The submit and reset inputs types, feature visual cues to let the user know they are about to click/tap the element.
+    * The submit and reset input types, feature visual cues to let the user know they are about to click/tap the element.
     <p>&nbsp;</p>
 
 ![Join Us](/assets/images/readme-images/join-us-section.JPG)
@@ -102,7 +104,7 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ## Testing
 
-* The first thing I manually tested numerous times was responsiveness utilizing chrome as the main browser, that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets and the [Am I Responsive](https://ui.dev/amiresponsive?url=https://leonardo-simeone.github.io/online-gaming-club/index.html) website was used as well to test responsiveness.
+* The first thing I manually tested numerous times was responsiveness utilizing Chrome as the main browser, I made sure that the site adapts well for different screen sizes. I used devtools not only for the developing process but also for the screen size testing. Also different devices were used for the porpuse of testing, such as mobiles and tablets and the [Am I Responsive](https://ui.dev/amiresponsive?url=https://leonardo-simeone.github.io/online-gaming-club/index.html) website was used as well to test responsiveness.
 * I also tested effectiveness and efficiency in the links available in the website site, I made sure that all links work as intended and that the user can navigate and find information in the site easily.
 * I tested compatibility and functionality across different browsers. I used Chrome, Edge and Firefox, and in every single one of them the website works and responds well.
 ![Edge Firefox Test](/assets/images/readme-images/edge-firefox.png)
@@ -111,8 +113,8 @@ Online Gaming Club offers a selection of different MMO video games to choose fro
 
 ## Form Data Verification
 
-* In order to make the website more user friendly, I created a thanks page to which the user is brought to once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
-* Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thanks page implementation the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
+* In order to make the website more user friendly, I created a thanks page to which the user is brought once the form has been filled out and submitted. From this page the user can wait to be redirected to the home page or navigate to a preffered page manually.
+* Based on the fact that this a front-end only type of website, the information is not being processed in any shape or form however, I wanted to test that before the thanks page implementation, the form was working correctly by sending the data to the Code Institute form dump site utilizing the post method.
 <p>&nbsp;</p>
 
 ![Form Test](/assets/images/readme-images/form-data-sent-correctly.JPG)
